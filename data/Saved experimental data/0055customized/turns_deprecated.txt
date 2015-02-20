@@ -1,0 +1,2 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+acwe|csdc|NOTRELAYEDnotrelayed|1424289844178|0|1424289844178|1424289844178|0|csdc|||OK|0|0|0|0|0|||||

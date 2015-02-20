@@ -1,0 +1,3 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+server|server|abcDATA|1424296930223|0|0|0|0|server|hello6||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424296935444|5221|5221|0|0|server|hello3||OK|0|0|0|0|0|||||

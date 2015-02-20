@@ -1,0 +1,12 @@
+java.lang.NullPointerException
+	at client.MazeGameController2WAY.isAonOthersSwitch(MazeGameController2WAY.java:388)
+	at diet.server.CbyC.Sequence.MazeGameDefaultSequence.getMazeGameDataStart(MazeGameDefaultSequence.java:61)
+	at diet.server.CbyC.Sequence.MazeGameDefaultSequence.<init>(MazeGameDefaultSequence.java:133)
+	at diet.server.ConversationController.CCCBYCMazeGameFakeEndOfTurnCRGeneratorDEMO.getNextSequence_Speaker_Change(CCCBYCMazeGameFakeEndOfTurnCRGeneratorDEMO.java:485)
+	at diet.server.CbyC.Sequences.processSpeakerChangeRequest_SetNewSequence(Sequences.java:102)
+	at diet.server.CbyC.FloorHolder.processFloorRequest(FloorHolder.java:89)
+	at diet.server.CbyC.FloorHolderAdvanced.processFloorRequest(FloorHolderAdvanced.java:192)
+	at diet.server.ConversationController.CCCBYCDefaultController.processCBYCTypingUnhinderedRequest(CCCBYCDefaultController.java:58)
+	at diet.server.ConversationController.CCCBYCMazeGameFakeEndOfTurnCRGenerator.processCBYCTypingUnhinderedRequest(CCCBYCMazeGameFakeEndOfTurnCRGenerator.java:90)
+	at diet.server.ConversationController.CCCBYCMazeGameFakeEndOfTurnCRGeneratorDEMO.processCBYCTypingUnhinderedRequest(CCCBYCMazeGameFakeEndOfTurnCRGeneratorDEMO.java:88)
+	at diet.server.Conversation.run(Conversation.java:525)

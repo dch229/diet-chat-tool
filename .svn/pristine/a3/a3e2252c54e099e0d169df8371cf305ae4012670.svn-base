@@ -1,0 +1,1002 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 12">
+<meta name=Originator content="Microsoft Word 12">
+<link rel=File-List href="chattool_files/filelist.xml">
+<link rel=Edit-Time-Data href="chattool_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<link rel=themeData href="chattool_files/themedata.thmx">
+<link rel=colorSchemeMapping href="chattool_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>80</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:black;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:black;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:black;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	color:black;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1294285171;
+	mso-list-type:hybrid;
+	mso-list-template-ids:2131525492 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif]-->
+<meta name=CREATED content="0;0">
+<meta name=CHANGED content="20111124;22120700">
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="6146"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=WordSection1>
+
+<p align=center style='text-align:center'><b><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p align=center style='text-align:center'><b><span style='font-size:28.0pt'>Dialogue
+Experimentation Toolkit (DiET)</span></b><span style='font-size:28.0pt'><o:p></o:p></span></p>
+
+<p><o:p>&nbsp;</o:p></p>
+
+<p><o:p>&nbsp;</o:p></p>
+
+<p>The toolkit is a text-based experimental resource for carrying out
+experiments on dialogue. The chat tool provides away of intercepting participants' typed turns and selectively interfering with
+both their content and timing. This allows very fine-grained experimental
+control over what participants perceive the other participants as having typed.
+</p>
+
+<p>The chat tool includes a constantly expanding library of experiments that can be
+reconfigured. It also provides an extensive API for programming experimental interventions that are sensitive to the conversational
+context of the participants. Watch this <a
+href="http://www.youtube.com/watch?v=H_ZmjBoEOLQ">video</a> to see a
+demonstration of how the chat tool works.</p>
+
+<p align=center style='text-align:center'>&nbsp;</p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='mso-cellspacing:0in;mso-yfti-tbllook:1184;mso-padding-alt:0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=638 valign=top style='width:478.5pt;padding:0in 0in 0in 0in'>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+  style='mso-no-proof:yes'><img border=0 width=670 height=303 id="_x0000_i1025"
+  src="https://dietsourcecode.svn.sourceforge.net/svnroot/dietsourcecode/public_html/image001.jpg"
+  alt="https://dietsourcecode.svn.sourceforge.net/svnroot/dietsourcecode/public_html/image001.jpg"></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td width=638 valign=top style='width:478.5pt;padding:0in 0in 0in 0in'>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+  style='font-size:10.0pt'>Flowchart showing an experiment that introduces
+  artificial clarification requests into the dialogue: The server generates a
+  clarification request &quot;home?&quot; that appears to participant A to
+  originate from participant B. Note that participant B is not aware of
+  participant A's sub-dialogue.</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>&nbsp;</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><b><span style='font-size:18.0pt;line-height:115%'>About the
+methodology</span></b><span style='font-size:18.0pt;line-height:115%'><o:p></o:p></span></p>
+
+<p>Our understanding of dialogue is much less advanced than our understanding of linguistic processing in monologue.
+ One of the main reasons
+for this is practical - dialogue is inherently interactive and <span
+class=SpellE>contextualised</span>, which makes controlled experiments
+extremely difficult. Current techniques involve relatively coarse interventions
+such as manipulating task difficulty, manipulating objects in the task (e.g. occluding or replacing objects)
+ or restricting participants' ability to interact (e.g. assigning participants
+ to an overhearer role). Other designs use confederates who make scripted contributions 
+ </p>
+
+<p>These techniques lack the kind of fine-grained experimental control found in
+studies of intra-individual language processing. This has held back progress in
+the analysis of dialogue. <span class=SpellE>DiET</span> is a new text-chat
+based experimental platform that addresses these problems. </p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>The
+basic strategy used by the chat tool involves participants communicating using
+a synchronous text chat tool. Instead of passing turns directly to the
+appropriate chat clients, each turn is routed via a server. This is configured
+to detect, for example, target words, phrases or syntactic constructions. This
+information can then be used to trigger specific experimental interventions.
+For example, the Figure above shows a `spoof' clarification request being
+inserted into the dialogue that appears to originate from another participant.
+The `spoof' sub-dialogue is not seen by the other participant and we have shown
+this can be done without disruption to the dialogue or detection by the
+participants.</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>&nbsp;</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><b><span style='font-size:18.0pt;line-height:115%'>Possible
+kinds of experimental intervention include:<o:p></o:p></span></b></p>
+
+<p><b style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
+EN-GB'>Conceptual Co-ordination: </span><o:p></o:p></b></p>
+
+<p>•<span style='mso-spacerun:yes'>  </span>&nbsp;<span lang=EN-GB
+style='mso-ansi-language:EN-GB'>Substitution of non-words, synonyms, <span
+class=SpellE>hypernyms</span>, hyponyms,</span></p>
+
+<p>•&nbsp;&nbsp;&nbsp;Manipulation of the s<span class=SpellE><span lang=EN-GB
+style='mso-ansi-language:EN-GB'>pecificity</span></span><span lang=EN-GB
+style='mso-ansi-language:EN-GB'> of referring expressions</span></p>
+
+<p>•&nbsp;&nbsp; Manipulation <span class=GramE>of<span
+style='mso-spacerun:yes'>  </span>levels</span> of alignment <span lang=EN-GB
+style='mso-ansi-language:EN-GB'>between interlocutors. </span></p>
+
+<p><span lang=EN-GB style='font-size:2.0pt;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p><b style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
+EN-GB'>Procedural Co-ordination:</span><o:p></o:p></b></p>
+
+<p>•&nbsp;&nbsp;&nbsp;<span class=GramE>Manipulation <span lang=EN-GB
+style='mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'> </span>of</span></span><span
+lang=EN-GB style='mso-ansi-language:EN-GB'> sequencing and timing<o:p></o:p></span></p>
+
+<p>•&nbsp;&nbsp;&nbsp;Manipulation of turn-taking behavior</p>
+
+<p><span lang=EN-GB style='font-size:2.0pt;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p><b style='mso-bidi-font-weight:normal'>Group-membership and identity:<o:p></o:p></b></p>
+
+<p>•&nbsp;&nbsp;&nbsp;Manipulation of participatory status (e.g. <span
+class=SpellE>overhearer</span> vs. direct participant)</p>
+
+<p>•&nbsp;&nbsp;&nbsp;Manipulation of identity of participant</p>
+
+<p>•&nbsp;&nbsp;&nbsp;Manipulation of identity of participant</p>
+
+<p><span style='font-size:2.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p><b style='mso-bidi-font-weight:normal'>Linguistic structure:<o:p></o:p></b></p>
+
+<p>•&nbsp;&nbsp;&nbsp;Manipulation of lexical, syntactic and semantic
+constituents.</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><b><span style='font-size:18.0pt;line-height:115%'>Recorded
+data<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><span style='font-size:4.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'>The chat tool automatically records all the turns and <span
+class=SpellE>keypresses</span>, producer and recipient of each word,
+frequencies of use, <span class=SpellE>recency</span>, and other data, such as typing
+speed, number of edits (deletes, inserts), turn formulation time and overlap.
+This data is recorded in real-time, and can be used to generate experimental
+interventions that are sensitive to the immediate conversational context.</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;line-height:115%'><b><span
+style='font-size:18.0pt;line-height:115%'>Integration with SPSS / Excel / <span
+class=SpellE>OpenOffice</span></span></b><span style='font-size:18.0pt;
+line-height:115%'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><span style='font-size:4.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'>All the data from the experiments is saved to a CSV (comma
+separated values) file.</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>&nbsp;</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;line-height:115%'><b><span
+style='font-size:18.0pt;line-height:115%'>Naturalistic Interventions</span></b><span
+style='font-size:18.0pt;line-height:115%'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;line-height:115%'><span
+style='font-size:4.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;line-height:115%'>The chat
+tool has functionality that allows &quot;spoofing&quot; of interlocutors'
+typing speed, <span class=SpellE>mistypings</span> that are sensitive to the
+keyboard layout, unique &quot;txt&quot; conventions, <span class=GramE>turn</span>-taking
+phenomena. </p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;line-height:115%'>The chat
+tool also includes a variety of interfaces, including an interface similar to
+MSN/ICQ/<span class=SpellE>Facebook</span> chat and another interface similar
+to UNIX talk which displays each character as it is typed.</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>&nbsp;</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:18.0pt'>Some
+immediate questions about the methodology:<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;line-height:115%'><b><span
+style='font-size:4.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;line-height:115%'><i
+style='mso-bidi-font-style:normal'><span style='font-size:13.5pt;line-height:
+115%;mso-bidi-font-weight:bold'>“But don’t the participants notice that
+something very strange is going on and realize that the server is manipulating
+the text?</span><o:p></o:p></i></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><span style='font-size:4.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'>Surprisingly, no! Participants tolerate very high levels of
+disturbance<span class=GramE>..even</span> quite unnatural looking
+clarification requests are treated as bona fide attempts to sustain
+mutual-intelligibility. We have carried out over 2500 interventions, and so far
+only one participant suspected that a turn might have been generated
+artificially. Of course, the interventions need to be piloted and designed
+judiciously.</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><b><span style='font-size:6.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><b><span style='font-size:6.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><i style='mso-bidi-font-style:normal'><span style='font-size:
+13.5pt;line-height:115%;mso-bidi-font-weight:bold'><span
+style='mso-spacerun:yes'> </span>“But this isn’t the same as real spoken
+dialogue”</span><o:p></o:p></i></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><b><span style='font-size:6.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'>Yes and no. Text-based dialogue exhibits <span class=SpellE>disfluencies</span>,
+hesitations, interruptions, pauses, fillers, repair, acknowledgments etc
+(obviously not intonation). We have shown that text-based variants of key
+dialogue tasks, including the <span class=SpellE>tangram</span> task (Clark and
+Wilkes-Gibbs, 1986), maze task (<span class=SpellE>Garrod</span> and Doherty,
+1994) and story-telling task (<span class=SpellE>Bavelas</span> et al., 1992),
+exhibit local and global patterns in participants' dialogue that are comparable
+to those observed in the original spoken versions of the task, and are amenable
+to experimental manipulation using the techniques outlined above (Healey, <span
+class=SpellE>Purver</span>, et al. 2003; Healey and Mills, 2006; Mills and
+Healey, 1997; <span class=SpellE>Eshghi</span>, 2009; <span class=SpellE>Howes</span>,
+<span class=SpellE>Purver</span> et al, 2011; Mills, 2011)</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+line-height:115%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><b><span style='font-size:18.0pt;line-height:115%'>Downloading
+and installing the software</span></b><span style='font-size:18.0pt;line-height:
+115%'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><span style='font-size:4.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'>The chat tool is programmed entirely in Java, and runs on all
+(Linux, Windows, <span class=GramE>Mac</span>) platforms. It is released under
+a GPL license, and the latest version is available to download from
+sourceforge.net. Because the chat tool is constantly being updated, and also
+requires some programming to be used, it is stored in a repository on
+sourceforge.net. To download and install it, do the following:</p>
+
+<p style='margin-left:.5in;text-indent:-.25in;line-height:115%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>Ensure
+you have <span class=SpellE>netbeans</span> (version 7.0 or higher). Note, this
+isn’t strictly <span class=GramE>necessary,</span> you can of course use your
+own IDE, such as Eclipse. Or, if you want, you can also run the program from
+the command-line. However, it is easiest to run it from <span class=SpellE>netbeans</span>:
+when loaded from <span class=SpellE>netbeans</span> there is no need to play
+around with linking libraries and directory paths etc. The chat tool program
+should run “out of the box”.</p>
+
+<p style='margin-left:.5in;text-indent:-.25in;line-height:115%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>Ensure
+you have java (1.5 or higher). Installing <span class=SpellE>netbeans</span>
+should also install the correct version of java.</p>
+
+<p style='margin-left:.5in;text-indent:-.25in;line-height:115%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>Ensure
+you have an SVN client, such as <span class=SpellE>TortoiseSVN</span> (on
+windows machines)</p>
+
+<p style='margin-left:.5in;text-indent:-.25in;line-height:115%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>Download
+the full source code of the project by doing an SVN checkout from the
+repository which is located at<span class=GramE>:</span><br>
+<a href="https://svn.code.sf.net/p/dietsourcecode/code/">https://svn.code.sf.net/p/dietsourcecode/code/</a>.<span
+style='mso-spacerun:yes'>  </span><br>
+On a <span class=SpellE>linux</span> machine you would do something like the
+following at the command prompt:<br>
+<span class=SpellE><span style='font-family:"Courier New"'>svn</span></span><span
+style='font-family:"Courier New"'> co </span><span style='font-family:"Courier New";
+color:black;mso-themecolor:text1'><a
+href="https://svn.code.sf.net/p/dietsourcecode/code/"><span
+style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+none'>https://svn.code.sf.net/p/dietsourcecode/code/</span></a></span><span
+style='font-family:"Courier New"'> <span class=SpellE>chattool</span></span> <br>
+(There is a brief video on the <span class=SpellE>youtube</span> channel that
+shows how to do this)</p>
+
+<p style='margin-left:.5in;text-indent:-.25in;line-height:115%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>Follow
+the instructions in the user manual on how to use the chat tool to run
+experiments. </p>
+
+<p style='margin-bottom:12.0pt;line-height:115%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><b><span style='font-size:18.0pt;line-height:115%'>Documentation</span></b><span
+style='font-size:18.0pt;line-height:115%'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><span style='font-size:4.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'>Detailed instructions on how to use it are found in the <a
+href="https://dietsourcecode.svn.sourceforge.net/svnroot/dietsourcecode/manual/usermanual.pdf">user
+manual</a>.<span style='mso-spacerun:yes'>  </span>This is constantly being
+updated, so make sure you periodically reload it. There is also a <a
+href="http://www.youtube.com/user/dietchattool"><span class=SpellE>youtube</span>
+channel</a> with some basic instructions on how to get started and how to
+program interventions. If there's something you would like to be addressed in
+the manual or in a video instruction, do please email. The latest version of
+the user manual is available in the SVN directory (It's constantly being
+updated, as changes are made to the chat tool). </p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>&nbsp;</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><b><span style='font-size:18.0pt;line-height:115%'>Questions<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><span style='font-size:4.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'>For more information, or any questions about the chat tool,
+please contact:&nbsp;<br>
+<b>g j m <span class=SpellE>i</span> l <span class=SpellE>l</span> s @ s t a n
+f o r <span class=GramE>d .</span> <span class=GramE>e</span> d u</b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><b><span style='font-size:18.0pt;line-height:115%'>About<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-size:4.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>This
+is essentially the 4<sup>th</sup> incarnation of the chat tool. It grew out of
+the ROSSINI project<span style='mso-spacerun:yes'>  </span>(P.G.T. Healey Queen
+Mary University), was used by Matt <span class=SpellE>Purver</span> for his
+thesis, was rebuilt for G. <span class=SpellE>Mills’s</span> thesis, and then
+programmed as a stand-alone experimental resource as part of the <span
+class=SpellE>DiET</span> project (EPSRC). It has been modified and added to as
+part of the <span class=SpellE>DynDial</span> project (Kings College and Queen
+Mary University) and also as part of ERIS (FP7 EU Project, G.J Mills).</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'>People who have contributed to the design, coding and
+documentation of the chat tool include Pat Healey, Jonathan <span class=SpellE>Ginzburg</span>,
+James King, Matt <span class=SpellE>Purver</span>, <span class=SpellE>Arash</span>
+<span class=SpellE>Eshghi</span>, and Chris <span class=SpellE>Howes</span>.</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+line-height:115%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'><b><span style='font-size:18.0pt;line-height:115%'>Publications
+using chat tool methodology</span></b><span style='font-size:18.0pt;line-height:
+115%'><o:p></o:p></span></p>
+
+<p>Mills, G. J. (2011) <span class=GramE>The</span> emergence of procedural
+conventions in dialogue In Proceedings of the 33rd Annual Conference of the
+Cognitive Science Society. Boston. USA. </p>
+
+<p><span class=SpellE>Howes</span>, C. <span class=SpellE>Purver</span>, M.,
+Healey, P. G.T., Mills, G. (2011) <b>On <span class=SpellE>Incrementality</span>
+in Dialogue: Evidence from Compound Contributions</b> Dialogue and Discourse. <span
+class=SpellE><span class=GramE>Vol</span></span><span class=GramE> 2, No 1.</span>
+<span class=GramE>Special Issue on Incremental Processing in Dialogue.</span></p>
+
+<p><span class=SpellE><span class=GramE>Gregoromichelaki</span></span><span
+class=GramE>, E., <span class=SpellE>Kempson</span>, R., <span class=SpellE>Purver</span>,
+M., Mills, G., <span class=SpellE>Cann</span>, R. (2010).</span> <span
+class=SpellE><span class=GramE><b>Incrementality</b></span></span><span
+class=GramE><b> and intention-recognition in utterance processing</b> <span
+class=SpellE>Vol</span> 2, No 1.</span> <span class=GramE>Special Issue on
+Incremental Processing in Dialogue.</span></p>
+
+<p>Mills, G. J. and <span class=SpellE>Gregoromichelaki</span>, E. (2010)
+Establishing coherence in dialogue: <span class=SpellE>sequentiality</span>,
+intentions and negotiation. <span class=GramE>In Proceedings of <span
+class=SpellE>SemDial</span> (<span class=SpellE>PozDial</span>).</span> Adam
+Mickiewicz University, Poznan, Poland 16-18th June. </p>
+
+<p><span class=SpellE>Howes</span>, C. &amp; Healey, P.G.T. &amp; Mills, G.J.
+(2009) <b>A: An Experimental Investigation into... B: ...Split Utterances</b>
+Proceedings of the SIGDIAL 2009 Conference. London. UK. </p>
+
+<p><span class=SpellE>Kempson</span>, R. &amp; <span class=SpellE>Gregoromichelaki</span>,
+E. &amp; <span class=SpellE>Purver</span>, M. &amp; Mills, G.J. &amp; <span
+class=SpellE>Gargett</span> A. &amp; <span class=SpellE>Howes</span>, C. (2009)
+<b>How Mechanistic Can Accounts of Interaction Be?</b> <span class=GramE>In
+Proceedings of the 13th SEMDIAL Workshop on the Semantics and Pragmatics of
+Dialogue (<span class=SpellE>DiaHolmia</span>), Stockholm.</span></p>
+
+<p><span class=GramE>Mills, G.J. &amp; <span class=SpellE>Gregoromichelaki</span>
+E. (2009) <b>Coordinating on joint projects.</b></span><b> </b><span
+class=GramE>Based on talk given at the Coordination of Agents Workshop,
+November 2008, King's College London.</span> </p>
+
+<p><span class=SpellE>Eshghi</span>, A. (2009) <b>Uncommon Ground: The
+Distribution of Dialogue Contexts</b> PhD Thesis. Queen Mary University of
+London.</p>
+
+<p><span class=SpellE>Eshghi</span>, A. &amp; Healey, P.G.T. (2009) <span
+class=GramE><b>What</b></span><b> is conversation? <span class=GramE>Distinguishing
+dialogue contexts<span style='font-weight:normal'> Proceedings of the 31st
+Annual Conference of the Cognitive Science Society.</span></span></b>
+Amsterdam. Holland. </p>
+
+<p>Mills, G. J. and Healey, P.G.T. (2008) <b>Semantic negotiation in dialogue:
+mechanisms of alignment</b>. <span class=GramE>in</span> Proceedings of the 8th
+<span class=SpellE>SIGdial</span> workshop on Discourse and Dialogue, Columbus,
+OH, US; June 2008. </p>
+
+<p>Mills, G.J. &amp; Healey, P.G.T. (2008) <b>Clarifying by alignment: the role
+of figure and ground</b> Forthcoming</p>
+
+<p>Mills, G.J. (2007) <b>Semantic co-ordination in dialogue: the role of direct
+interaction</b> PhD Thesis</p>
+
+<p>Mills, G. J. and Healey, P.G.T. (2006) <b>Clarifying Spatial Descriptions:
+Local and Global Effects on Semantic Co-<span class=GramE>ordination <span
+style='font-weight:normal'>,</span></span></b> In Proceedings of the 10th
+Workshop on the Semantics and Pragmatics of Dialogue. Potsdam. Germany.</p>
+
+<p><strong>[2006]</strong> Healey, P.G.T. and Mills, G. J. <b>Participation,
+Precedence and Co-ordination in <span class=GramE>Dialogue <span
+style='font-weight:normal'>.</span></span></b> <span class=GramE>In Proceedings
+of the 28th Annual Conference of the Cognitive Science Society.</span>
+Vancouver. Canada </p>
+
+<p>Healey, P.G.T., <span class=SpellE>Purver</span>, M., King, J., <span
+class=SpellE>Ginzburg</span>, J. and Mills, G. (2003) <b>Experimenting with
+Clarification in <span class=GramE>Dialogue <span style='font-weight:normal'>.</span></span></b>
+<span class=GramE>in</span> <span class=SpellE>Alterman</span>, R. and <span
+class=SpellE>Kirsh</span>, D. (<span class=SpellE>eds</span>) Proceedings of
+the 25th Annual Conference of the Cognitive Science Society. Mahwah, N.J.: LEA
+pp. 539-544. </p>
+
+<p><span class=SpellE>Purver</span>, M., Healey, P.G.T, King, J., <span
+class=SpellE>Ginzburg</span>, J. and Mills, G<span class=GramE>.(</span>2003) <b>Answering
+Clarification Questions. In Proceedings of the 4th <span class=SpellE>SIGdial</span>
+Workshop on Discourse and <span class=GramE>Dialogue <span style='font-weight:
+normal'>,</span></span></b> pp. 23-33, Association for Computational
+Linguistics, Sapporo, Japan, July 2003</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:115%'>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

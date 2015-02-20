@@ -1,0 +1,10 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text|CBYCestring|CBYCestart|CBYCefinish|CBYCtype|CBYCfirstsend|CBYClastsend1|CBYCFinalText|MazeNo|AbsMoveNoATSTART|IndivMoveNoATSTART|AbsMoveNoATEND|IndivMoveNoATEND
+server|server|DATASAVINGDATA|1422549215420|0|0|0|0|server|ERRORSAVING0||OK|0|0|0|0|0|||||
+server|server|DATASAVINGDATA|1422549215885|465|465|0|0|server|ERRORSAVING0||OK|0|0|0|0|0|||||
+server|server|DATASAVINGDATA|1422549216501|1081|1081|0|0|server|ERRORSAVING0||OK|0|0|0|0|0|||||
+server|server|DATASAVINGDATA|1422549216684|1264|1264|0|0|server|ERRORSAVING1||OK|0|0|0|0|0|||||
+server|server|DATASAVINGDATA|1422549218179|2759|2759|0|0|server|ERRORSAVING2||OK|0|0|0|0|0|||||
+server|server|CBYCMAZEGAMETURN|-9999|5464|7624|2160|0|server|||OK|0|0|0|0|0||||||-99999|-99999|MG_DUMMY_BLOCK(ATM1)|1422549220884|1422549223044||0|0|0|0|0|false|0|0|false|0|false|0|0|false|0
+server|server|DATASAVINGDATA|1422549284459|69039|69039|0|0|server|ERRORSAVING1||OK|0|0|0|0|0|||||
+server|server|DATASAVINGDATA|1422549287913|72493|72493|0|0|server|ERRORSAVING1||OK|0|0|0|0|0|||||
+server|server|DATASAVINGDATA|1422549306280|90860|90860|0|0|server|ERRORSAVING1||OK|0|0|0|0|0|||||

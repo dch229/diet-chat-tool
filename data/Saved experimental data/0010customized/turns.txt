@@ -1,0 +1,11 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+smlnv|ghiowso|Default|1422595885644|0|1422595885644|1422595885644|0|ghiowso||, woignsv|OK|0|0|0|0|0|||||
+smlnv|ghiowso|NOTRELAYED.|1422595885644|0|1422595885644|1422595885644|0|ghiowso|||OK|0|0|0|0|0|||||
+smlnv|ghiowso|Default|1422595889526|1422595888816|1422595889519|703|5|ghiowso|test|, woignsv|OK|0|0|0|0|0|||||
+smlnv|ghiowso|NOTRELAYED.|1422595889526|1422595888816|1422595889519|703|5|ghiowso|test||OK|0|0|0|0|0|||||
+smlnv|ghiowso|Default|1422595891230|1422595890495|1422595891223|728|5|ghiowso|okay|, woignsv|OK|0|0|0|0|0|||||
+smlnv|ghiowso|NOTRELAYED.|1422595891230|1422595890495|1422595891223|728|5|ghiowso|okay||OK|0|0|0|0|0|||||
+adsfoij|woignsv|Default|1422595892943|1422595891945|1422595892937|992|4|woignsv|what|, ghiowso|OK|1|1|0|1|0||1422595891232|ghiowso|okay|
+adsfoij|woignsv|NOTRELAYED.|1422595892943|1422595891945|1422595892937|992|4|woignsv|what||OK|0|0|0|0|0||1422595891232|ghiowso|okay|
+adsfoij|woignsv|Default|1422595895102|1422595893256|1422595895096|1840|9|woignsv|still not working|, ghiowso|OK|0|0|0|0|0|||||
+adsfoij|woignsv|NOTRELAYED.|1422595895102|1422595893256|1422595895096|1840|9|woignsv|still not working||OK|0|0|0|0|0|||||

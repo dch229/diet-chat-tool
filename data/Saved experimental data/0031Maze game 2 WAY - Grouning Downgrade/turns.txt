@@ -1,0 +1,4 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text|MazeNo|AbsMoveNo|IndivMoveNo
+mcdk|here|MAZEGAMETURN|1423841204289|0|1423841204289|1423841204289|0|here||, what|OK|0|0|0|0|0|||||0|0|-9999999
+mcdk|here|MAZEGAMETURN|1423841207925|1423841206635|1423841207858|1223|1|here|hi|, what|OK|0|0|0|0|0|||||0|0|-9999999
+abcd|what|MAZEGAMETURN|1423841210405|1423841209451|1423841210338|887|2|what|hi|, here|OK|0|0|0|0|0||1423841207932|here|hi|0|0|-9999999

@@ -1,0 +1,7 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+server|server|abcDATA|1424381815435|0|0|0|0|server|Log: adsvsdv ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424381817580|2145|2145|0|0|server|Log: abcd ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424381826134|10699|10699|0|0|server|Log: adsvsdv ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424381827608|12173|12173|0|0|server|Log: abcd ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424381837764|22329|22329|0|0|server|Log: adsvsdv ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424381839383|23948|23948|0|0|server|Log: abcd ||OK|0|0|0|0|0|||||

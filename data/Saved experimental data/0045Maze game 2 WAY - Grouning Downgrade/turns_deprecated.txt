@@ -1,0 +1,3 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text|MazeNo|AbsMoveNo|IndivMoveNo
+server|server|DATASAVINGDATA|1424222215744|0|0|0|0|server|ERRORSAVING0||OK|0|0|0|0|0|||||
+server|server|DATASAVINGDATA|1424222218423|2679|2679|0|0|server|ERRORSAVING0||OK|0|0|0|0|0|||||

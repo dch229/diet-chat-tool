@@ -1,0 +1,13 @@
+This is a customizable template for running experiments.<br>
+You might even want to put experiment instructions here.<br>
+<br>
+To use this file, edit it in a texteditor and change :<br>
+serveripaddress and serverportnumber <br>
+<br>
+<applet code=diet.server.experimentmanager.EMStarterApplet.class 
+      archive="/jarfile/chattool.jar"
+      width=160 height=80 MAYSCRIPT ALT="If you can't see a button here you won't be able to run the experiment...please choose to release the assignment! SORRY">
+<PARAM name="userentersvalues" value= "yes">
+<PARAM name="serveripaddress" value= "localhost">
+<PARAM name="serverportnumber" value= "20000">
+</applet>

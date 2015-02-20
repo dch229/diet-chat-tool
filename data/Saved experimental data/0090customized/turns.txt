@@ -1,0 +1,2 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+wefas|weafs|NOTRELAYEDnotrelayed|1424632961025|0|1424632961025|1424632961025|0|weafs|||OK|0|0|0|0|0|||||

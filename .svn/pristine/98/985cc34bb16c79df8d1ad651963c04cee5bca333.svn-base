@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Dialogue Experimental Toolkit</title>
+  <meta name="description" content="Dialogue Experimental Toolkit (DiET)" />
+  <meta name="keywords" content="dialogue, experimentation, miscommunication" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  
+</head>
+<body>
+
+
+
+
+
+
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">DiET:<span class="logo_colour">Dialogue Experimental Toolkit</span></a></h1>
+          <h2></h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.html">Home</a></li>
+          </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+
+      </div>
+      <div id="content">
+       
+
+
+
+
+
+
+
+<h1><b>Running the maze game.</b></h1>
+<p>These instructions assume that you will be running a setup with two participants. This requires three computers: 1 server and 2 clients. If you just want to test it on a single computer, you can carry out all the steps that are listed below on the same computer</p>
+<ol>
+<li><p>Ensure you have the correct version of java installed on each computer. The version of Java has to be at least version 7 or above. You can download and install the latest version of java from <a href="http://www.oracle.com/technetwork/java/javase/downloads/java-se-jre-7-download-432155.html">here.</A></p></li>
+
+<li><p>Connect all 3 computers to the network. Make sure that the firewall (on the server) is configured to allow incoming connections on port 20000. You can ensure this by disabling the firewall. If you are using institutional computers you might need to ask IT support to help with this step.</p></li>
+
+<li><p>The chattool program is contained in a single file called <a href="http://svn.code.sf.net/p/dietsourcecode/code/chattool.jar">chattool.jar</A>. This file contains all the code needed to run the server and the clients. Download this file into a separate folder on each computer.
+</p></li>
+
+<li><p>On the server, double-click the file "chattool.jar". This should bring up a window that asks you whether you want to start the server or start the client. Select the option "start the server". 
+
+
+
+<li><p>This should bring up another window that looks like the one below:
+</p>
+<img src='servergraphics2.jpg' width = "600" alt='missing' style=" box-shadow:1px 1px 1px 1px #404040;border-radius: 3px"> </img></li>
+
+
+<li><p>You need to start the maze game script. The name of this script is CCMAZEGAME_2WAY_RANDOMIZEDMAZES. To find and then start this script, scroll through the list (see the red rectangle in the Figure above which says "Right click on the correct name") until you see CCMAZEGAME_2WAY_RANDOMIZEDMAZES.  Using the mouse, right-click on this name and select "Run as new experiment". This will start the script, and the server will then wait for connections from the clients.</p></li>
+
+
+
+<li><p>
+To connect the clients to the server, you need to know the Internet address of the server. The internet address is displayed in the Output window (see figure above where it says "Internet address of server"). In this figure it shows the internet address as 192.168.1.206. On your system it will be a different number. If there is a single internet address, make a note of this address.<br>
+If there are two (or more) Internet addresses displayed on separate lines, you will have to use trial and error and try all of them to see which one works. If there is no number displayed, you will have to use the operating system to get the internet address (on a windows machine use IPCONFIG, on a Mac use IFCONFIG).</p>
+
+<li><p>On each client computer, double-click on the file "chattool.jar". This should load a menu screen: </p><img src='serverorclient.jpg' width = "600" alt='missing' style=" box-shadow:1px 1px 1px 1px #404040;border-radius: 3px"> </img></li>
+
+<li><p>This screen requires you to tell the client what the server's internet address is. In the red rectangle, replace the text 'localhost" with the internet address of the server. Select "START THE CHAT CLIENT". If the client connects with the server, the screen should disappear, and it should now ask you for a ParticipantID. </p></li>
+
+<li><p>
+This setup will only let participants connect if they have a ParticipantID that is either "111111" or "222222"  (ignore the quotes). The reason for this restriction is for "crash" recovery (see the section on crash recovery below), and also provides another level of anonymization! If you are logging in the first client, type in "111111". If you are logging in the second client, type in "222222". The client should then ask you for a username. Choose a username and press OK.<br>
+</p></li>
+
+<li><p>Repeat steps 8 - 10 for the second client  . Once both clients have logged on, mazes should appear on both participants' computers. Also, on the server, a control-panel should appear that shows both participants' mazes, and also shows the dialogue transcript (See below)</p></li>
+
+ <img src='mazegameserver.png' width = "600" alt='missing' style=" box-shadow:1px 1px 1px 1px #404040;border-radius: 3px"> </img></li>
+
+<li><p>The maze game control panel displays both mazes. The grey squares are switches, the green square is the initial start position (the green square is privileged info that is not visible on the participants' screens). The red square is the goal, which is displayed as a red X on the clients <br><br>
+<B>Controlling the maze game on the server:</B> There are three buttons, the plus sign on the right (+) jumps to the next maze. The minus sign jumps to the previous maze, and the button "reset position marker to initial position" restarts the current maze. <br><br>
+<B>IMPORTANT!</B>I f you press any of these buttons, please wait 2 seconds before pressing again. This is because the commands need to be relayed to the clients, and then reconfirmed by the server...and then the various timers need to be synchronized.
+
+</p></li>
+ 
+<li><p>Another way of watching the dialogue on the server (not strictly necessary, since you can look at the dialogue on the Control panel), press the tab (see figure below)</p><img src='duringexperiment.jpg' width = "600" alt='missing' style=" box-shadow:1px 1px 1px 1px #404040;border-radius: 3px"></p></img></li>
+
+
+
+<li><p>In order to make it so that the window always scrolls down to the last turn, select "View" and then "Toggle scrolling" (see below)</p><img src='togglescrolling.jpg' width = "600" alt='missing' style=" box-shadow:1px 1px 1px 1px #404040;border-radius: 3px"> </img></li>
+
+</ol>
+
+<h2>Data collected during the experiment</h2>
+<p>
+The data from the experiments is stored in a subfolder of /data/Saved experimental data<br> To locate the data from the most recent experiment, look for the folder that has the highest prefix. In this folder is a file called <B>turns.txt</B>. The format of this file is identical to CSV (Comma Separated Values), except that the character used to separate the columns is the "|" character.
+</p>
+
+
+</ol>
+
+<h2>Recovering from a crash</h2>
+<h3>If one of the clients freezes or becomes unresponsive</h3>
+<p>Usually this happens for reasons other than the chat-tool, e.g. software-updates.</p>
+<ol>
+<li>reboot the client. Don't reboot the server or the other client</li>
+<li>Repeat steps 8-10 listed above, on how to connect a client to the server. Make sure you use the original Participant ID.</li>
+<li>The server should detect that the participant is logging back on...however, it will reset the current maze so that all participants have to start from their respective green squares (visible on the server control panel). This is in order to ensure that the maze game is in a coherent state.</li>
+<li>If it doesn't login and resume automatically you can still recover from where the experiment left off - see below</li>
+</ol>
+
+<h3>Recovering from a more severe crash: how to close everything down and then reload the same maze script</h3>
+You first need to ensure that everything is closed down before restarting. The steps here are more complex because there is a lot of stuff going on behind the scenes that tries to keep the connections open (in case there are blips on the network). It might be that on one of the clients there is no window displaying the chat tool interface but the chat tool code is running. 
+<br><br>
+<b>Killing the clients:</b>
+<ol>
+<li>On each client, click the “close window" button (on windows it's the “x” in the top right”). This should ask you for a password.</li>
+<li>The password is "closedown" (ignore the quotes)</li>
+<li>If you have been prompted for a password on ALL clients, and if all client windows have now disappeared, you can assume that all clients have been shut down. You can now go to the next section on closing down the server</li>
+<li>If you haven't been able to close all the clients, you will need to manually "kill" the chat tool processes on each client</li>
+<li>On windows you need to use the "Windows Task Manager"
+
+<ol>
+<li>press “Ctrl Alt Delete” and choose “Start the Task Manager”</li>
+<li>Select the “Processes” tab.</li>
+<li>Sort them alphabetically and whenever you see an entry called “javaw” or “java”, select it and then press the “End Process” button.</li>
+</ol></li>
+<li> On linux or Mac, please see documentation on how to kill a process, see e.g. <A HREF = 
+"http://superuser.com/questions/192219/list-and-kill-running-processes-on-mac-os-in-ctrl-alt-delete-like-way"> this</A> or <A HREF = "  http://stackoverflow.com/questions/903076/how-to-kill-a-process-in-macos">this</A></li>
+
+</ol>
+<br><br>
+<B>Closing down the server</B> Only do this after you have closed down the clients.
+<ol>
+<li>Try closing the server how you would normally close any window. If the window vanishes, then you can assume the server was closed down.</li>
+<li>If the window hasn't vanished, then you will need to “kill” the chat tool process</li>
+<li>On windows you need to use the "Windows Task Manager"
+
+<ol>
+<li>press “Ctrl Alt Delete” and choose “Start the Task Manager”</li>
+<li>Select the “Processes” tab.</li>
+<li>Sort them alphabetically and whenever you see an entry called “javaw” or “java”, select it and then press the “End Process” button.</li>
+</ol></li>
+
+<li> On linux or Mac, please see documentation on how to kill a process, see e.g. <A HREF = 
+"http://superuser.com/questions/192219/list-and-kill-running-processes-on-mac-os-in-ctrl-alt-delete-like-way"> this</A> or <A HREF = "  http://stackoverflow.com/questions/903076/how-to-kill-a-process-in-macos">this</A></li>
+</ol>
+
+<br>
+<br>
+<br>
+<b>Restarting the server</b>
+<ol>
+<li>On the server, double-click the file "chattool.jar". This should bring up a window that asks you whether you want to start the server or start the client. Select the option "start the server". </li>
+<li>This should bring up another window </li>
+<li>DO NOT START THE MAZE GAME SCRIPT HOW YOU NORMALLY WOULD! You need to load the same set of mazes as in the experiment that just crashed!</li>
+<li>In the top left-hand side of the window should be a list of directories</li>
+<li>Click on "Saved Experimental Data". This should open up a list of folders that contain all the saved data from the experiments</li>
+<li>Scroll down to the bottom of the list. The last entry will be the folder that contains the data from the previous experiment that crashed</li>
+<li><B>Right-click</B> on the name of the folder, e.g. "0002Maze game 2WAY". On a Mac, you will need to press and hold Ctrl and then press the mouse button.</li>
+<li>A menu should appear. Select "attempt to resume Experiment from last saved state"</li>
+<li>Let the clients log in again, following the same steps as 8-10 in the first section on "Running the maze game", above.</li>
+<li>You now need to move the maze game so that the participants are presented with the same game they were running when the game was interrupted</li>
+<li>To do this, press the "+" button, which is at the bottom right on the maze control panel. This should move the game to the next maze. Keep doing this with a 2 second pause between increments until the correct maze is displayed</li>
+<li>The participants should now be able to resume the experiment</li> 
+</ol>
+<br>
+<br>
+<br>
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+        <p>&copy; simplestyle_6 |<a href="http://www.html5webtemplates.co.uk">  Design  </a></p>
+    </div>
+    <p>&nbsp;</p>
+  </div>
+</body>
+</html>

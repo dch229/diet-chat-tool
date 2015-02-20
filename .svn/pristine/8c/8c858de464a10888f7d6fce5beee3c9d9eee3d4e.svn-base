@@ -1,0 +1,2 @@
+java -Xms512m -Xmx2048m   -classpath    .\lib\AbsoluteLayout.jar;.\lib\bsh-2.0b4.jar;.\lib\itp-gpl.jar;.\lib\jwordnet.jar;.\lib\stanford-parser.jar;.\lib\stanford-parser-2012-07-09-models.jar;.\lib\stanford-postagger-3.1.5.jar;.\lib\swing-layout-1.0.3.jar;.\lib\swingutil1.5.jar;.\chattool.jar;    diet.server.experimentmanager.EMStarter SERVER
+

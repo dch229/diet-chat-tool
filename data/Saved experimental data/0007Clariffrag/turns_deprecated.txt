@@ -1,0 +1,4 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+5678|part2|Default|1422582958788|0|3416|3416|6|part2|Did you go to the shop?|, part1|OK|0|0|0|0|0|||||
+5678|part2|Default|1422584790265|1832619|1834883|2264|1|part2|test|, part1|OK|0|0|0|0|0|||||
+1234|part1|Default|1422584801100|1844318|1845718|1400|2|part1|key|, part2|OK|0|0|0|0|0||1422584790269|part2|test|

@@ -1,0 +1,40 @@
+mcdk|here|ChatTextFromClient|SFri Feb 13 10:26:44 EST 2015T|1423841204357|68|1423841204357||
+mcdk|here|ChatTextToClient|SFri Feb 13 10:26:44 EST 2015T|1423841204413|| |
+mcdk|here|Keypressed|SFri Feb 13 10:26:46 EST 2015T|1423841206730|| |
+mcdk|here|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:46 EST 2015T|1423841206734|| |
+mcdk|here|Keypressed|SFri Feb 13 10:26:46 EST 2015T|1423841206950|| |
+mcdk|here|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:46 EST 2015T|1423841206951|| |
+mcdk|here|Keypressed|SFri Feb 13 10:26:47 EST 2015T|1423841207702|| |
+mcdk|here|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:47 EST 2015T|1423841207704|| |
+mcdk|here|ChatTextFromClient|SFri Feb 13 10:26:47 EST 2015T|1423841207926|1423841206703|1423841207926|hi|
+mcdk|here|ChatTextToClient|SFri Feb 13 10:26:47 EST 2015T|1423841207926|| |
+abcd|what|Keypressed|SFri Feb 13 10:26:49 EST 2015T|1423841209524|| |
+abcd|what|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:49 EST 2015T|1423841209528|| |
+abcd|what|Keypressed|SFri Feb 13 10:26:49 EST 2015T|1423841209674|| |
+abcd|what|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:49 EST 2015T|1423841209675|| |
+abcd|what|Keypressed|SFri Feb 13 10:26:50 EST 2015T|1423841210175|| |
+abcd|what|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:50 EST 2015T|1423841210176|| |
+abcd|what|ChatTextFromClient|SFri Feb 13 10:26:50 EST 2015T|1423841210406|1423841209519|1423841210406|hi|
+abcd|what|ChatTextToClient|SFri Feb 13 10:26:50 EST 2015T|1423841210406|| |
+mcdk|here|Keypressed|SFri Feb 13 10:26:56 EST 2015T|1423841216631|| |
+mcdk|here|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:56 EST 2015T|1423841216632|| |
+mcdk|here|Keypressed|SFri Feb 13 10:26:56 EST 2015T|1423841216967|| |
+mcdk|here|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:56 EST 2015T|1423841216968|| |
+mcdk|here|Keypressed|SFri Feb 13 10:26:57 EST 2015T|1423841217125|| |
+mcdk|here|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:57 EST 2015T|1423841217126|| |
+mcdk|here|Keypressed|SFri Feb 13 10:26:57 EST 2015T|1423841217374|| |
+mcdk|here|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:57 EST 2015T|1423841217375|| |
+mcdk|here|Keypressed|SFri Feb 13 10:26:57 EST 2015T|1423841217462|| |
+mcdk|here|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:57 EST 2015T|1423841217463|| |
+mcdk|here|Keypressed|SFri Feb 13 10:26:57 EST 2015T|1423841217670|| |
+mcdk|here|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:57 EST 2015T|1423841217670|| |
+mcdk|here|Keypressed|SFri Feb 13 10:26:57 EST 2015T|1423841217978|| |
+mcdk|here|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:57 EST 2015T|1423841217979|| |
+mcdk|here|Keypressed|SFri Feb 13 10:26:58 EST 2015T|1423841218240|| |
+mcdk|here|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:58 EST 2015T|1423841218241|| |
+mcdk|here|Keypressed|SFri Feb 13 10:26:58 EST 2015T|1423841218398|| |
+mcdk|here|Keypressed|SFri Feb 13 10:26:58 EST 2015T|1423841218621|| |
+mcdk|here|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:58 EST 2015T|1423841218622|| |
+mcdk|here|Keypressed|SFri Feb 13 10:26:59 EST 2015T|1423841219096|| |
+mcdk|here|WYSIWYGDocSyncFromClient|SFri Feb 13 10:26:59 EST 2015T|1423841219097|| |
+mcdk|here|ChatTextFromClient|SFri Feb 13 10:26:59 EST 2015T|1423841219246|1423841216631|1423841219246|wait huh?|

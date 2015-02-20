@@ -1,0 +1,2 @@
+casxwe|aerfv|ChatTextFromClient|SWed Feb 18 14:08:05 EST 2015T|1424286485222|77|1424286485222||
+server|aerfv|ChatTextToClient|SWed Feb 18 14:08:05 EST 2015T|1424286485520|| |

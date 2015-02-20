@@ -1,0 +1,615 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/*
+ * JCRSender.java
+ *
+ * Created on Oct 23, 2011, 2:18:18 PM
+ */
+
+package diet.task.collabMinitaskProceduralComms;
+
+import diet.server.ConversationController.DefaultConversationController;
+import diet.server.Participant;
+import java.util.Date;
+import javax.swing.JLabel;
+import javax.swing.SwingUtilities;
+
+/**
+ *
+ * @author sre
+ */
+public class JCRSender2ParticipantsWithInsertedWords extends javax.swing.JFrame {
+
+
+    DefaultConversationController cC;
+    AlphabeticalTaskWithInsertedWords at;
+
+    /** Creates new form JCRSender */
+    Participant a;
+    Participant b;
+
+    public JCRSender2ParticipantsWithInsertedWords() {
+        initComponents();
+    }
+    int minSize;
+
+    public void printAndClear(final String s){
+        
+         SwingUtilities.invokeLater(new Runnable(){public void run(){
+                     jTextPane1.setText("");
+                     jTextPane1.setText(s);
+        }});
+    }
+    
+    public void appendChatText(final String s){
+         SwingUtilities.invokeLater(new Runnable(){public void run(){
+                      jTextArea1.append(s+"\n");
+        }});
+          
+                
+    }
+    
+    
+    public JCRSender2ParticipantsWithInsertedWords(DefaultConversationController cC,AlphabeticalTaskWithInsertedWords at,Participant a, Participant b, int minSize, boolean onlyALLOWED, boolean xorALLOWED, boolean andALLOWED) {
+        initComponents();
+        this.cC=cC;
+        this.at=at;
+        this.a =a;
+        this.b=b;
+        this.minSize = minSize;
+        jButton1.setText(a.getUsername());
+        jButton2.setText(b.getUsername());
+        this.jTextField1.setText("");
+        this.jTextField2.setText(minSize+"");
+        this.jRadioButton1.setSelected(onlyALLOWED);
+        this.jRadioButton2.setSelected(xorALLOWED);
+        this.jRadioButton3.setSelected(andALLOWED);
+        doCheckingOfLengthInIntervention();
+    }
+    
+    
+    
+    
+    public void updateMaxSize(final int i){
+        SwingUtilities.invokeLater(new Runnable(){public void run(){
+                      jTextField2.setText(""+i);
+                 }});
+    }
+    
+    
+    public void doCheckingOfLengthInIntervention(){
+        
+        
+        
+        Thread t = new Thread(){
+           public void run(){
+               while(2<5){
+             try{
+                 Thread.sleep(2000);
+                 final long currTime = new Date().getTime();
+                 SwingUtilities.invokeLater(new Runnable(){public void run(){
+                      timeLABEL.setText(""+((int)(currTime-at.startTimeOfCurrentSet)/1000)+" secs");
+                 }});
+                  
+             
+             }catch (Exception e){          
+             }        
+        }           
+           }  
+        };
+        t.start();
+        
+        
+     
+        
+    }
+    
+    
+
+    public void assignNEWSPEAKERS(final Participant a, final Participant b){
+        this.a=a;
+        final JCRSender2ParticipantsWithInsertedWords jcrs = this;
+        
+         Runnable rr = new Runnable(){
+                    public void run(){
+                          jcrs.a=a;
+                          jcrs.b=b;
+                          jButton1.setText(a.getUsername());
+                          jButton2.setText(b.getUsername());                          
+                    }
+                };
+                SwingUtilities.invokeLater(rr);
+    }
+   
+    public void updateJProgressBarAppearance(final String text,final int value){
+        Runnable rr = new Runnable(){
+                    public void run(){
+                        jProgressBar1.setStringPainted(true);
+                        jProgressBar1.setValue(value);
+                        jProgressBar1.setString(""+text);
+                    }
+                };
+                SwingUtilities.invokeLater(rr);
+    }
+    
+    
+    
+    public void displayInterventionInfo(final String s){
+         final JLabel jl = this.jLabel1;
+         try{
+            SwingUtilities.invokeLater(new Runnable(){
+                public void run(){
+                     jl.setText(s);
+                }
+            });
+  }catch(Exception e){
+              System.err.println("ERROR WRITING STRING");
+   }
+    }
+    public void interventionOVER(){
+        final JLabel jl = this.jLabel1;
+         try{
+            SwingUtilities.invokeLater(new Runnable(){
+                public void run(){
+                     jToggleButton1.setSelected(false);
+                     jToggleButton2.setSelected(false);
+                }
+            });
+  }catch(Exception e){
+              System.err.println("ERROR RESETTING");
+   }
+
+
+
+    }
+
+
+
+
+
+
+    /** This method is called from within the constructor to
+     * initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is
+     * always regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        jButton7 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jRadioButton1 = new javax.swing.JRadioButton();
+        jRadioButton2 = new javax.swing.JRadioButton();
+        jRadioButton3 = new javax.swing.JRadioButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
+        jTextField2 = new javax.swing.JTextField();
+        jButton16 = new javax.swing.JButton();
+        jProgressBar1 = new javax.swing.JProgressBar();
+        jPanel1 = new javax.swing.JPanel();
+        jButton14 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jToggleButton2 = new javax.swing.JToggleButton();
+        jToggleButton3 = new javax.swing.JToggleButton();
+        jToggleButton1 = new javax.swing.JToggleButton();
+        jLabel2 = new javax.swing.JLabel();
+        timeLABEL = new javax.swing.JLabel();
+        jButton12 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextPane1 = new javax.swing.JTextPane();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
+
+        jButton7.setText("jButton7");
+
+        jButton10.setText("jButton10");
+
+        jButton13.setText("UNBLOCK");
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
+
+        jLabel3.setText("Time spent on current intervention");
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField1.setText("jTextField1");
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 680, 20));
+
+        jRadioButton1.setText("only");
+        jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jRadioButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 0, -1, -1));
+
+        jRadioButton2.setText("xor");
+        jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jRadioButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 0, -1, -1));
+
+        jRadioButton3.setText("and");
+        jRadioButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jRadioButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 0, -1, -1));
+
+        jButton3.setText("Change Settings");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 0, -1, -1));
+
+        jButton4.setText("Next Set");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 0, -1, -1));
+
+        jButton5.setText("+");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 0, 40, -1));
+
+        jButton6.setText("-");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 0, 44, -1));
+
+        jTextField2.setEditable(false);
+        jTextField2.setText("jTextField2");
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 176, -1));
+
+        jButton16.setText("ADDRND");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, -1, -1));
+        getContentPane().add(jProgressBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 680, 20));
+
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton14.setText("UNBLOCK");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jButton15.setText("BLOCK");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(89, 0, 99, -1));
+
+        jButton1.setText("jButton1");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 34, 188, 19));
+
+        jButton8.setText("SEND AND BLOCK OTHER");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 64, 188, -1));
+
+        jLabel1.setText("status");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 0, 40, -1));
+
+        jToggleButton2.setText("AUTO");
+        jToggleButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton2ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jToggleButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 0, 60, -1));
+
+        jToggleButton3.setText("RECENT");
+        jToggleButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton3ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jToggleButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 0, 70, -1));
+
+        jToggleButton1.setText("AUTO");
+        jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jToggleButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 0, 70, -1));
+
+        jLabel2.setText("Time spent on current intervention");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 40, -1, -1));
+
+        timeLABEL.setText("Time");
+        jPanel1.add(timeLABEL, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 40, 87, -1));
+
+        jButton12.setText("UNBLOCK");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 0, -1, -1));
+
+        jButton11.setText("BLOCK");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 0, 101, -1));
+
+        jButton2.setText("jButton2");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 30, 180, 17));
+
+        jButton9.setText("SEND AND BLOCK OTHER");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 60, 180, -1));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
+
+        jScrollPane1.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
+
+        jTextPane1.setFont(new java.awt.Font("Courier New", 0, 8)); // NOI18N
+        jTextPane1.setAutoscrolls(false);
+        jScrollPane1.setViewportView(jTextPane1);
+
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 0, 420, 170));
+
+        jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+        jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Monospaced", 0, 8)); // NOI18N
+        jTextArea1.setRows(5);
+        jScrollPane2.setViewportView(jTextArea1);
+
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1110, 0, 350, 170));
+
+        pack();
+    }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        cC.getC().sendArtificialTurnFromApparentOriginToRecipient(b, a,jTextField1.getText());
+
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        cC.getC().sendArtificialTurnFromApparentOriginToRecipient(a, b,jTextField1.getText());
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
+        // TODO add your handling code here:
+        if(!jRadioButton2.isSelected()&!jRadioButton3.isSelected())jRadioButton1.setSelected(true);
+    }//GEN-LAST:event_jRadioButton1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        at.changeSettings(minSize, jRadioButton1.isSelected(), jRadioButton2.isSelected(), jRadioButton3.isSelected());
+
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+        at.nextSet("Timeout..next set","FROMGUI");
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
+        // TODO add your handling code here:
+         if(!jRadioButton1.isSelected()&!jRadioButton3.isSelected())jRadioButton2.setSelected(true);
+    }//GEN-LAST:event_jRadioButton2ActionPerformed
+
+    private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
+        // TODO add your handling code here:
+         if(!jRadioButton2.isSelected()&!jRadioButton1.isSelected())jRadioButton3.setSelected(true);
+    }//GEN-LAST:event_jRadioButton3ActionPerformed
+
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+        minSize++;
+        this.jTextField2.setText(""+minSize);
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+        minSize--;
+        if(minSize<1)minSize=1;
+        this.jTextField2.setText(""+minSize);
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+         cC.getC().sendLabelDisplayAndEnableToParticipantInOwnStatusWindow(a, "Network problem..recalculating", true,false);
+         cC.getC().sendArtificialTurnFromApparentOriginToRecipient(a, b,jTextField1.getText());
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+        cC.getC().sendLabelDisplayAndEnableToParticipantInOwnStatusWindow(b, "Network problem..recalculating", true,false);
+         cC.getC().sendArtificialTurnFromApparentOriginToRecipient(b, a,jTextField1.getText());
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        // TODO add your handling code here:
+        cC.getC().sendLabelDisplayAndEnableToParticipantInOwnStatusWindow(b, "Network problem..recalculating", true,false);
+
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        // TODO add your handling code here:
+         cC.getC().sendLabelDisplayAndEnableToParticipantInOwnStatusWindow(b, "Normal text", false,true);
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        // TODO add your handling code here:
+        cC.getC().sendLabelDisplayAndEnableToParticipantInOwnStatusWindow(a, "OK", false,true);
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        // TODO add your handling code here:
+        cC.getC().sendLabelDisplayAndEnableToParticipantInOwnStatusWindow(a, "Normal text", false,true);
+
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        // TODO add your handling code here:
+         cC.getC().sendLabelDisplayAndEnableToParticipantInOwnStatusWindow(a, "Network problem..recalculating", true,false);
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
+        // TODO add your handling code here:
+        if(jToggleButton1.isSelected()){
+            this.jToggleButton2.setSelected(false);
+            //at.cC.setTargetRecipient(b);
+        }
+
+
+    }//GEN-LAST:event_jToggleButton1ActionPerformed
+
+    private void jToggleButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton2ActionPerformed
+        // TODO add your handling code here:
+        if(jToggleButton2.isSelected())
+            this.jToggleButton1.setSelected(false);
+            //at.cC.setTargetRecipient(a);
+    }//GEN-LAST:event_jToggleButton2ActionPerformed
+
+    private void jToggleButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton3ActionPerformed
+        // TODO add your handling code here:
+       // at.cC.setOnlyForMostRecent(jToggleButton3.isSelected());
+    }//GEN-LAST:event_jToggleButton3ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        // TODO add your handling code here:
+        at.rndWRD();
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    /**
+    * @param args the command line arguments
+    */
+    public static void main(String args[]) {
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new JCRSender2ParticipantsWithInsertedWords().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JProgressBar jProgressBar1;
+    private javax.swing.JRadioButton jRadioButton1;
+    private javax.swing.JRadioButton jRadioButton2;
+    private javax.swing.JRadioButton jRadioButton3;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextPane jTextPane1;
+    private javax.swing.JToggleButton jToggleButton1;
+    private javax.swing.JToggleButton jToggleButton2;
+    private javax.swing.JToggleButton jToggleButton3;
+    private javax.swing.JLabel timeLABEL;
+    // End of variables declaration//GEN-END:variables
+
+
+
+
+
+
+}

@@ -1,0 +1,9 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+fjhl|sefgvfxb|NOTRELAYED.|1422901003877|0|1247|1247|1|sefgvfxb|hi||OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1422901003945|1307|1307|0|0|sefgvfxb|hi...which is great|, dgfh|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1422901003947|1310|1310|0|0|sefgvfxb|hi...which is great|, dgfh|OK|0|0|0|0|0|||||
+fjhl|sefgvfxb|NOTRELAYEDnotrelayed|1422901003877|0|1247|1247|1|sefgvfxb|hi||OK|0|0|0|0|0|||||
+sfgdf|dgfh|NOTRELAYED.|1422901012217|8436|9580|1144|2|dgfh|cbj||OK|0|0|0|0|0||1422901003948|sefgvfxb|hi...which is great|
+server|server|ARTIFICIALTURN|1422901012219|9581|9581|0|0|dgfh|cbj...which is great|, sefgvfxb|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1422901012219|9581|9581|0|0|dgfh|cbj...which is great|, sefgvfxb|OK|0|0|0|0|0|||||
+sfgdf|dgfh|NOTRELAYEDnotrelayed|1422901012217|8436|9580|1144|2|dgfh|cbj||OK|0|0|0|0|0||1422901003948|sefgvfxb|hi...which is great|

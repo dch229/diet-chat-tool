@@ -1,0 +1,4 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+dxfgch|gvhj|Default|1422900847558|0|679|679|2|gvhj|hi|, ftujhbk|OK|0|0|0|0|0|||||
+uhj;|ftujhbk|Default|1422900864791|16214|17887|1673|1|ftujhbk|hi|, gvhj|OK|0|0|0|0|0||1422900847592|gvhj|hi|
+dxfgch|gvhj|Default|1422900896672|47287|49767|2480|2|gvhj|gybhjk\|, ftujhbk|OK|1|1|0|1|0||1422900864797|ftujhbk|hi|

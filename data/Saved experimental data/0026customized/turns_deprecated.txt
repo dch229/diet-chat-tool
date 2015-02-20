@@ -1,0 +1,9 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+awdsv|arweg|NOTRELAYED.|1422630765487|0|835|835|4|arweg|test||OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1422630765673|985|985|0|0|arweg|test...which is great|, aergb|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1422630765675|987|987|0|0|arweg|test...which is great|, aergb|OK|0|0|0|0|0|||||
+awdsv|arweg|NOTRELAYEDnotrelayed|1422630765487|0|835|835|4|arweg|test||OK|0|0|0|0|0|||||
+asdf|aergb|NOTRELAYED.|1422630770687|4096|6001|1905|2|aergb|okay||OK|0|3|0|3|0||1422630765675|arweg|test...which is great|
+server|server|ARTIFICIALTURN|1422630770689|6001|6001|0|0|aergb|okay...which is great|, arweg|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1422630770689|6001|6001|0|0|aergb|okay...which is great|, arweg|OK|0|0|0|0|0|||||
+asdf|aergb|NOTRELAYEDnotrelayed|1422630770687|4096|6001|1905|2|aergb|okay||OK|0|0|0|0|0||1422630765675|arweg|test...which is great|

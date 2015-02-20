@@ -1,0 +1,5 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+server|server|abcDATA|1424574581309|0|0|0|0|server|**SURVEY RESPONSE: senowfozsdn** 2||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424574583039|1730|1730|0|0|server|**SURVEY RESPONSE: waiuhc** 3||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424574592043|10734|10734|0|0|server|**SURVEY RESPONSE: senowfozsdn** 4||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424574593678|12369|12369|0|0|server|**SURVEY RESPONSE: waiuhc** 5||OK|0|0|0|0|0|||||

@@ -1,0 +1,8 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+server|server|abcDATA|1424295547127|0|0|0|0|server|hello||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424295547304|177|177|0|0|server|hello||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424295594099|46972|46972|0|0|server|hello||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424295594614|47487|47487|0|0|server|hello||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424295594922|47795|47795|0|0|server|hello||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424295595095|47968|47968|0|0|server|hello||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424295595284|48157|48157|0|0|server|hello||OK|0|0|0|0|0|||||

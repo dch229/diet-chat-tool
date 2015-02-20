@@ -1,0 +1,10 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+server|server|ARTIFICIALTURN|1422637080523|0|0|0|0|mosvlk|Wake up!|, woivh|OK|0|0|0|0|0|||||
+nsvw|mosvlk|NOTRELAYED.|1422637082070|1134|1550|416|4|mosvlk|hi||OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1422637082076|1553|1553|0|0|mosvlk|hi...which is great|, woivh|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1422637082078|1555|1555|0|0|mosvlk|hi...which is great|, woivh|OK|0|0|0|0|0|||||
+nsvw|mosvlk|NOTRELAYEDnotrelayed|1422637082070|1134|1550|416|4|mosvlk|hi||OK|0|0|0|0|0|||||
+asdfonv|woivh|NOTRELAYED.|1422637092807|11002|12286|1284|3|woivh|hello||OK|0|0|0|0|0||1422637082080|mosvlk|hi...which is great|
+server|server|ARTIFICIALTURN|1422637092809|12286|12286|0|0|woivh|hello...which is great|, mosvlk|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1422637092810|12287|12287|0|0|woivh|hello...which is great|, mosvlk|OK|0|0|0|0|0|||||
+asdfonv|woivh|NOTRELAYEDnotrelayed|1422637092807|11002|12286|1284|3|woivh|hello||OK|0|0|0|0|0||1422637082080|mosvlk|hi...which is great|

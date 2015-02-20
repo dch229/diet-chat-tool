@@ -1,0 +1,4 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+dzvz|xvsd|NOTRELAYED.|1423845379439|0|1140|1140|1|xvsd|gh||OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1423845379592|1288|1288|0|0|xvsd|gh...which is great|, wegb|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1423845379599|1295|1295|0|0|xvsd|gh...which is great|, wegb|OK|0|0|0|0|0|||||

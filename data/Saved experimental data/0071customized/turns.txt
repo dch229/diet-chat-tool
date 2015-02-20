@@ -1,0 +1,2 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+ergbt|fvdb|NOTRELAYEDnotrelayed|1424295485195|0|852|852|2|fvdb|hi||OK|0|0|0|0|0|||||

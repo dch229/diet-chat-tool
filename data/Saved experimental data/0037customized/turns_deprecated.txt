@@ -1,0 +1,5 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+agaeg|waefawg|NOTRELAYED.|1423845448287|0|465|465|4|waefawg|hi||OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1423845448428|598|598|0|0|waefawg|hi...which is great|, awegfw|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1423845448432|601|601|0|0|waefawg|hi...which is great|, awegfw|OK|0|0|0|0|0|||||
+agaeg|waefawg|NOTRELAYEDnotrelayed|1423845448287|0|465|465|4|waefawg|hi||OK|0|0|0|0|0|||||

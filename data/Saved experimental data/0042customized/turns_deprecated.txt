@@ -1,0 +1,5 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+ionhiu|nouo|NOTRELAYED.|1424043346625|0|704|704|2|nouo|hi||OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424043346721|793|793|0|0|nouo|hi...which is great|, uinok|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424043346725|797|797|0|0|nouo|hi...which is great|, uinok|OK|0|0|0|0|0|||||
+ionhiu|nouo|NOTRELAYEDnotrelayed|1424043346625|0|704|704|2|nouo|hi||OK|0|0|0|0|0|||||

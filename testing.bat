@@ -1,0 +1,1 @@
+java -jar ".\dist\chattool.jar" nogui_ccname_autologin CCMAZEGAME_2WAY_RANDOMIZEDMAZES

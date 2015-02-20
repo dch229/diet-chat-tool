@@ -1,0 +1,5 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+server|server|abcDATA|1424382090297|0|0|0|0|server|**SURVEY RESPONSE: cdscx** 4||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424382091902|1605|1605|0|0|server|**SURVEY RESPONSE: adsc** 4||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424382102139|11842|11842|0|0|server|**SURVEY RESPONSE: cdscx** 6||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424382103442|13145|13145|0|0|server|**SURVEY RESPONSE: adsc** 5||OK|0|0|0|0|0|||||

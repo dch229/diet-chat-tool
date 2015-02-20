@@ -1,0 +1,9 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+defg|defg|NOTRELAYED.|1422597857557|0|830|830|4|defg|help||OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1422597857676|942|942|0|0|defg|help...which is great|, abcd|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1422597857678|944|944|0|0|defg|help...which is great|, abcd|OK|0|0|0|0|0|||||
+defg|defg|NOTRELAYEDnotrelayed|1422597857557|0|830|830|4|defg|help||OK|0|0|0|0|0|||||
+abcd|abcd|NOTRELAYED.|1422597860193|2979|3460|481|8|abcd|what||OK|0|0|0|0|0||1422597857678|defg|help...which is great|
+server|server|ARTIFICIALTURN|1422597860194|3460|3460|0|0|abcd|what...which is great|, defg|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1422597860195|3461|3461|0|0|abcd|what...which is great|, defg|OK|0|0|0|0|0|||||
+abcd|abcd|NOTRELAYEDnotrelayed|1422597860193|2979|3460|481|8|abcd|what||OK|0|0|0|0|0||1422597857678|defg|help...which is great|

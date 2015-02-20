@@ -1,0 +1,6 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text|CBYCestring|CBYCestart|CBYCefinish|CBYCtype|CBYCfirstsend|CBYClastsend1|CBYCFinalText|MazeNo|AbsMoveNoATSTART|IndivMoveNoATSTART|AbsMoveNoATEND|IndivMoveNoATEND
+server|server|DATASAVINGDATA|1422548934924|0|0|0|0|server|ERRORSAVING0||OK|0|0|0|0|0|||||
+server|server|DATASAVINGDATA|1422548935120|196|196|0|0|server|ERRORSAVING0||OK|0|0|0|0|0|||||
+server|server|DATASAVINGDATA|1422548936019|1095|1095|0|0|server|ERRORSAVING0||OK|0|0|0|0|0|||||
+server|server|DATASAVINGDATA|1422548936219|1295|1295|0|0|server|ERRORSAVING1||OK|0|0|0|0|0|||||
+server|server|DATASAVINGDATA|1422548936451|1527|1527|0|0|server|ERRORSAVING2||OK|0|0|0|0|0|||||

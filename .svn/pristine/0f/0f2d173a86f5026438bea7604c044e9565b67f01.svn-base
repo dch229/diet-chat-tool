@@ -1,0 +1,3 @@
+This file is used by the client (chattool.jar) to automatically connect to the IP address given below - this stops you having to enter the IP address each time you start the client. To change it, simply edit the two lines below:
+SERVER IP ADDRESS:localhost
+SERVER PORT:20000
