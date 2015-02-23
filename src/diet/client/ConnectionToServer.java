@@ -8,6 +8,8 @@ import java.util.Vector;
 import javax.swing.JOptionPane;
 
 import client.ClientMazeGameComms;
+import cornell.mchci.MessageDisplaySurvey;
+import cornell.mchci.MessageSurveySubmitted;
 import diet.debug.Debug;
 import diet.message.*;
 import diet.server.CbyC.DocInsert;
@@ -536,6 +538,15 @@ public class ConnectionToServer extends Thread {
                   
               }catch(Exception e){
                   e.printStackTrace();
+              }
+          }
+          else if(m instanceof MessageDisplaySurvey){
+              MessageDisplaySurvey mdw = (MessageDisplaySurvey)m;
+              try{
+                  this.wiad.displaySurvey(mdw.getId(), mdw.getHeader());
+              }catch(Exception e){
+                  e.printStackTrace();
+                  this.sendErrorMessage("ERRORDISPLAYINGNEWWEBPAGE");  
               }
           }
           
@@ -1166,6 +1177,17 @@ public class ConnectionToServer extends Thread {
          //System.out.println("SENDING KEYPRESSED");
          MessageKeypressed mkp = new MessageKeypressed(email,username,kp, contents);
          sendMessage(mkp);
+    }
+    
+    /**
+     * Sends message to server with survey results
+     * @param kp
+     * @param contents
+     */
+    public void sendSurveySubmitted(String contents){
+         //System.out.println("SENDING KEYPRESSED");
+         MessageSurveySubmitted mss = new MessageSurveySubmitted(email,username, contents);
+         sendMessage(mss);
     }
 
     /**

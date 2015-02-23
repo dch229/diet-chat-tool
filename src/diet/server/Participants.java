@@ -1,10 +1,10 @@
 package diet.server;
 
+import cornell.mchci.MessageDisplaySurvey;
 import diet.debug.Debug;
 import java.util.Vector;
 
 import diet.message.Message;
-import diet.message.MessageChatTextToClient;
 import diet.message.MessageClientCloseDown;
 import diet.message.MessageDisplayChangeJProgressBar;
 import diet.message.MessageDisplayChangeWebpage;
@@ -446,6 +446,10 @@ public class Participants {
         this.sendMessageToParticipant(p, mdcw);
     } 
 
+     public void displaySurvey(Participant p, String id, String header){
+        MessageDisplaySurvey mdnw = new MessageDisplaySurvey(id, header);
+        this.sendMessageToParticipant(p, mdnw);
+    }
 
      public synchronized void changeParticipants(Vector newList){
          if(newList.size()!=this.participants.size()){

@@ -58,25 +58,16 @@ public void processLoop(){
     
    Date newDate = new Date();
    long seconds = (newDate.getTime() - dt.getTime())/1000;
-   if(seconds > timerThreshholdS){
-       dt = new Date();
-       Vector v = this.c.getParticipants().getAllParticipants();
-       for(int i=0;i<v.size();i++){
-       Participant p = (Participant)v.elementAt(i);
-       sFrame = new TheSurveyFrame(c, p);
-//sFrame = new SurveyJFrame(c, p);
-       sFrame.setVisible(true);
+    if(seconds > timerThreshholdS){
+        dt = new Date();
+        Vector v = this.c.getParticipants().getAllParticipants();
+        for(int i=0;i<v.size();i++){
+            Participant p = (Participant)v.elementAt(i);
+            this.c.getParticipants().displaySurvey(p, "survey" + p.getParticipantID(), "survey");
+//sFrame = new TheSurveyFrame(c, p);
+            //sFrame.setVisible(true);
+        }
     }
-       
-       
-//       try {
-//           checkForJFrameClose();
-//       } catch (Exception ex) {
-//           Logger.getLogger(CCCUSTOM1.class.getName()).log(Level.SEVERE, null, ex);
-//       }
-   }
-   
-   
 }
     
    

@@ -31,6 +31,7 @@ import java.util.Vector;
 import lib.bsh.Interpreter;
 import client.MazeGameController2WAY;
 import client.MazeGameController3WAY;
+import cornell.mchci.MessageSurveySubmitted;
 import diet.client.StyledDocumentStyleSettings;
 import diet.debug.Debug;
 import diet.message.*;
@@ -577,6 +578,11 @@ public class Conversation extends Thread{
                 else if(m instanceof MessageClientEvent){
                     MessageClientEvent mce = (MessageClientEvent)m;
                     cC.processClientEvent(origin,mce);
+                }
+                //Survey code
+                else if(m instanceof MessageSurveySubmitted){
+                    MessageSurveySubmitted mss = (MessageSurveySubmitted)m;
+                    this.saveDataToConversationHistory("abc", mss.getSurveyResults());
                 }
                 
                 

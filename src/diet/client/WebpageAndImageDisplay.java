@@ -5,11 +5,11 @@
 
 package diet.client;
 
+import cornell.mchci.TestPanel;
 import java.awt.Color;
 import java.awt.Font;
 import java.util.Collection;
 import java.util.Hashtable;
-import java.util.Vector;
 import javax.swing.JEditorPane;
 import javax.swing.text.AttributeSet;
 import javax.swing.text.DefaultStyledDocument;
@@ -50,6 +50,12 @@ public class WebpageAndImageDisplay {
              wid = new WebpageAndImageDisplayComponent(header,url,width,height,vScrollBar,progressBar,forceCourierFont);
              displays.put(id, wid);                
          }      
+     }
+     
+     public void displaySurvey(String id, String header){
+         //TODO: open real survey here
+         TestPanel tp = new TestPanel(cts);
+         tp.setVisible(true);
      }
 
       public void changeWebpage(String id,String url, String prepend, String append){
