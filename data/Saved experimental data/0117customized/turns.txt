@@ -1,0 +1,5 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+server|server|abcDATA|1424721050527|0|0|0|0|server|**SURVEY RESPONSE: oihwars** Q1: 1 Q2:  Q3: somewhat Q4:  ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424721051098|571|571|0|0|server|**SURVEY RESPONSE: aoirewh** Q1: 1 Q2:  Q3: somewhat Q4:  ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424721051526|999|999|0|0|server|**SURVEY RESPONSE: oihwars** Q1: 2 Q2:  Q3: somewhat Q4: hi ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424721051663|1136|1136|0|0|server|**SURVEY RESPONSE: aoirewh** Q1: 1 Q2:  Q3: somewhat Q4:  ||OK|0|0|0|0|0|||||

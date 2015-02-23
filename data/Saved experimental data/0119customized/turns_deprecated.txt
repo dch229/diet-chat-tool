@@ -1,0 +1,5 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+okay|woahg|Default|1424721307519|0|328|328|6|woahg|hi|, plzz|OK|0|0|0|0|0|||||
+help|plzz|Default|1424721311705|3687|4512|825|6|plzz|hello|, woahg|OK|0|0|0|0|0||1424721307530|woahg|hi|
+server|server|abcDATA|1424721336125|28930|28930|0|0|server|**SURVEY RESPONSE: okay** Q1: 1 / Q2: 5 / Q3: volcanic / Q4: hello / ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424721339576|32381|32381|0|0|server|**SURVEY RESPONSE: help** Q1: 1 / Q2: 1 / Q3: somewhat / Q4: wat / ||OK|0|0|0|0|0|||||

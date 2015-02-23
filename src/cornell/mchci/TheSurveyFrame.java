@@ -9,6 +9,8 @@ import diet.server.Conversation;
 import diet.server.Participant;
 import java.awt.Container;
 import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.JRadioButton;
 import javax.swing.*;
 import java.util.*;
@@ -45,11 +47,16 @@ public class TheSurveyFrame extends JFrame {
 
     JLabel question4 = new JLabel("Write some random words below.");
     JTextArea q4Answer = new JTextArea ("",8,30);
+    
 
     
     
-    public TheSurveyFrame(){
+    public TheSurveyFrame(Conversation chat, final Participant p){
         super("Survey Form");
+        
+        this.chat = chat;
+        this.p = p;
+        
         Container c = getContentPane();
         FlowLayout fl = new FlowLayout(FlowLayout.LEFT);
         c.setLayout(fl);
@@ -64,20 +71,24 @@ public class TheSurveyFrame extends JFrame {
         c.add(eq);
 
         c.add(question1);
+        boolean defaultSet = false;
         for(int i = 1; i <= 5; i++){
             JRadioButton temp = new JRadioButton();
             temp.setText(Integer.toString(i));
             grp_1.add(temp);
             c.add(temp);
+            if(!defaultSet) {temp.setSelected(true); defaultSet = true;}
         }
 
 
         c.add(question2);
+        defaultSet = false;
         for(int i = 1; i <= 6; i++){
             JRadioButton temp = new JRadioButton();
             temp.setText(Integer.toString(i));
-            grp_1.add(temp);
+            grp_2.add(temp);
             c.add(temp);
+            if(!defaultSet) {temp.setSelected(true); defaultSet = true;}
         }
 
 
@@ -85,13 +96,57 @@ public class TheSurveyFrame extends JFrame {
         grp_3.add(q3o1);
         grp_3.add(q3o2);
         grp_3.add(q3o3);
+        q3o1.setSelected(true);
         c.add(q3o1);
         c.add(q3o2);
         c.add(q3o3);
 
         c.add(question4);
         c.add(q4Answer);
-        setContentPane(c);
+        
+        submitButton = new JButton();
+        submitButton.setText("Submit");
+        submitButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                //Execute when button is pressed
+                
+                getSubmitString();
+                setVisible(false);
+            }
+        }); 
+        c.add(submitButton);
+        
+        setContentPane(c); 
 
     }
+    
+    private void getSubmitString() {                                         
+        // TODO add your handling code here:
+        String logString = "**SURVEY RESPONSE: "+ p.getParticipantID() + "** ";
+        
+        logString += "Q1: " + extractButtonText(grp_1) + " / ";
+        logString += "Q2: " + extractButtonText(grp_2) + " / ";
+        logString += "Q3: " + extractButtonText(grp_3) + " / ";
+        logString += "Q4: " + q4Answer.getText() + " / ";
+
+        
+        chat.saveDataToConversationHistory("abc", logString);
+        setVisible(false);
+    }
+    
+
+    String extractButtonText(ButtonGroup buttonGroup) {
+        for (Enumeration<AbstractButton> buttons = buttonGroup.getElements(); buttons.hasMoreElements();) {
+            AbstractButton button = buttons.nextElement();
+            if (button.isSelected()) {
+                return button.getText();
+            }
+        }
+
+        return "";
+    }
 }
+
+    
+

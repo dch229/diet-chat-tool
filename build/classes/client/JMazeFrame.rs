@@ -1,0 +1,6 @@
+client.JMazeFrame_this_windowStateAdapter
+client.JMazeFrame_this_componentAdapter
+client.JMazeFrame
+client.JMazeFrame_jButton1_actionAdapter
+client.JMazeFrame_this_keyAdapter
+client.LabelTimer

@@ -1,0 +1,9 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+weaf|zcvs|NOTRELAYEDnotrelayed|1424721128894|0|456|456|4|zcvs|hi||OK|0|0|0|0|0|||||
+woaef|dovn|NOTRELAYEDnotrelayed|1424721132165|2931|3723|792|6|dovn|hello||OK|0|0|0|0|0|||||
+weaf|zcvs|NOTRELAYEDnotrelayed|1424721135173|6183|6730|547|7|zcvs|what||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424721140970|12527|12527|0|0|server|**SURVEY RESPONSE: weaf** Q1: 1 Q2: 1 Q3: volcanic Q4: hello ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424721145343|16900|16900|0|0|server|**SURVEY RESPONSE: woaef** Q1: 1 Q2: 2 Q3: somewhat Q4: okay ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424721162882|34439|34439|0|0|server|**SURVEY RESPONSE: weaf** Q1: 1 Q2: 1 Q3: somewhat Q4:  ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424721163382|34939|34939|0|0|server|**SURVEY RESPONSE: woaef** Q1: 1 Q2: 1 Q3: somewhat Q4:  ||OK|0|0|0|0|0|||||
+weaf|zcvs|NOTRELAYEDnotrelayed|1424721190467|60007|62026|2019|5|zcvs|why is text||OK|0|0|0|0|0|||||

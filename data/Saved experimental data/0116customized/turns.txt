@@ -1,0 +1,9 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+zdsdv|wefsd|NOTRELAYEDnotrelayed|1424720697116|0|1424720697116|1424720697116|0|wefsd|||OK|0|0|0|0|0|||||
+zdsdv|wefsd|NOTRELAYEDnotrelayed|1424720704796|1424720704361|1424720704776|415|4|wefsd|hi||OK|0|0|0|0|0|||||
+aergdf|aergsd|NOTRELAYEDnotrelayed|1424720709974|1424720707408|1424720709954|2546|1|aergsd|nooo||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424720722904|1424720722883|1424720722883|0|0|server|**SURVEY RESPONSE: zdsdv** Q1: 5 Q2:  Q3: somewhat Q4: hi ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424720723364|1424720723343|1424720723343|0|0|server|**SURVEY RESPONSE: aergdf** Q1:  Q2:  Q3: somewhat Q4:  ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424720723449|1424720723428|1424720723428|0|0|server|**SURVEY RESPONSE: aergdf** Q1:  Q2:  Q3: somewhat Q4:  ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424720723773|1424720723752|1424720723752|0|0|server|**SURVEY RESPONSE: zdsdv** Q1: 4 Q2:  Q3: decently angry Q4:  ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424720724058|1424720724037|1424720724037|0|0|server|**SURVEY RESPONSE: aergdf** Q1:  Q2:  Q3: somewhat Q4:  ||OK|0|0|0|0|0|||||

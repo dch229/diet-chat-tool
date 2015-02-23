@@ -80,15 +80,15 @@ public class SurveyJFrame extends javax.swing.JFrame {
     //Return index
     
     
-    public ButtonGroup newLikertButtonGroup(int numOptions){
-        JRadioButton[] newButtonGroup = new JRadioButton[numOptions];
-        for(int j = 0; j < numOptions; j++){
-            JRadioButton newButton = new JRadioButton();
-            newButton.setText(Integer.toString(j));
-            newButtonGroup[j] = newButton;
-        }
-        return newButtonGroup;
-    }
+//    public ButtonGroup newLikertButtonGroup(int numOptions){
+//        JRadioButton[] newButtonGroup = new JRadioButton[numOptions];
+//        for(int j = 0; j < numOptions; j++){
+//            JRadioButton newButton = new JRadioButton();
+//            newButton.setText(Integer.toString(j));
+//            newButtonGroup[j] = newButton;
+//        }
+//        return newButtonGroup;
+//    }
     /**
      * 
      * This method is called from within the constructor to initialize the form.

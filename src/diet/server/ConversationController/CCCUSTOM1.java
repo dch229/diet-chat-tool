@@ -12,6 +12,7 @@ import java.util.Vector;
 
 
 
+
 public class CCCUSTOM1 extends DefaultConversationController{
    Date dt;
    //SurveyJFrame sFrame;
@@ -20,7 +21,7 @@ public class CCCUSTOM1 extends DefaultConversationController{
    
    
    public CCCUSTOM1(){
-       timerThreshholdS = 10;
+       timerThreshholdS = 20;
     }
     public static boolean showcCONGUI(){
         return false;
@@ -58,13 +59,13 @@ public void processLoop(){
    Date newDate = new Date();
    long seconds = (newDate.getTime() - dt.getTime())/1000;
    if(seconds > timerThreshholdS){
+       dt = new Date();
        Vector v = this.c.getParticipants().getAllParticipants();
        for(int i=0;i<v.size();i++){
        Participant p = (Participant)v.elementAt(i);
-       sFrame = new TheSurveyFrame();
+       sFrame = new TheSurveyFrame(c, p);
 //sFrame = new SurveyJFrame(c, p);
        sFrame.setVisible(true);
-       dt = new Date();
     }
        
        
@@ -94,12 +95,12 @@ public void processLoop(){
            pTurnsElapsed.setValue(((Integer)pTurnsElapsed.getValue())+1);
            super.expSettings.generateParameterEvent(pTurnsElapsed);
      
-           //c.relayTurnToAllOtherParticipants(sender,mct);
-           //c.sendLabelDisplayToAllowedParticipantsFromApparentOrigin(sender,"Status: OK",false);
+           c.relayTurnToAllOtherParticipants(sender,mct);
+           c.sendLabelDisplayToAllowedParticipantsFromApparentOrigin(sender,"Status: OK",false);
           
-          // c.setNewTurnBeingConstructedNotRelayingOldTurnAddingOldTurnToHistory(sender, mct);
-          // String newTurn = mct.getText()+ "...which is great";
-          // c.sendArtificialTurnToAllOtherParticipants(sender,newTurn);
+//           c.setNewTurnBeingConstructedNotRelayingOldTurnAddingOldTurnToHistory(sender, mct);
+//           String newTurn = mct.getText()+ "...which is great";
+//           c.sendArtificialTurnToAllOtherParticipants(sender,newTurn);
         
            
         

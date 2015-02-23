@@ -1,0 +1,2 @@
+client.JMazePanel2_this_componentAdapter
+client.JMazePanel2

@@ -1,0 +1,496 @@
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:60)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)
+java.lang.NullPointerException
+	at cornell.mchci.TheSurveyFrame.<init>(TheSurveyFrame.java:103)
+	at diet.server.ConversationController.CCCUSTOM1.processLoop(CCCUSTOM1.java:65)
+	at diet.server.ConversationController.DefaultConversationController.run(DefaultConversationController.java:167)

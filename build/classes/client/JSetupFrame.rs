@@ -1,0 +1,4 @@
+client.JSetupMazeSquareButtonHandler1
+client.JSetupFrameEventHandler
+client.JSetupMazeSquareButtonHandler2
+client.JSetupFrame

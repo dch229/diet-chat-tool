@@ -1,0 +1,56 @@
+weaf|zcvs|Keypressed|SMon Feb 23 14:52:08 EST 2015T|1424721128448|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:52:08 EST 2015T|1424721128451|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:52:08 EST 2015T|1424721128543|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:52:08 EST 2015T|1424721128546|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:52:08 EST 2015T|1424721128807|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:52:08 EST 2015T|1424721128809|| |
+weaf|zcvs|ChatTextFromClient|SMon Feb 23 14:52:08 EST 2015T|1424721128899|1424721128443|1424721128899|hi|
+woaef|dovn|Keypressed|SMon Feb 23 14:52:11 EST 2015T|1424721131375|| |
+woaef|dovn|WYSIWYGDocSyncFromClient|SMon Feb 23 14:52:11 EST 2015T|1424721131377|| |
+woaef|dovn|Keypressed|SMon Feb 23 14:52:11 EST 2015T|1424721131462|| |
+woaef|dovn|WYSIWYGDocSyncFromClient|SMon Feb 23 14:52:11 EST 2015T|1424721131464|| |
+woaef|dovn|Keypressed|SMon Feb 23 14:52:11 EST 2015T|1424721131558|| |
+woaef|dovn|WYSIWYGDocSyncFromClient|SMon Feb 23 14:52:11 EST 2015T|1424721131559|| |
+woaef|dovn|Keypressed|SMon Feb 23 14:52:11 EST 2015T|1424721131710|| |
+woaef|dovn|WYSIWYGDocSyncFromClient|SMon Feb 23 14:52:11 EST 2015T|1424721131712|| |
+woaef|dovn|Keypressed|SMon Feb 23 14:52:11 EST 2015T|1424721131880|| |
+woaef|dovn|WYSIWYGDocSyncFromClient|SMon Feb 23 14:52:11 EST 2015T|1424721131882|| |
+woaef|dovn|Keypressed|SMon Feb 23 14:52:12 EST 2015T|1424721132086|| |
+woaef|dovn|WYSIWYGDocSyncFromClient|SMon Feb 23 14:52:12 EST 2015T|1424721132087|| |
+woaef|dovn|ChatTextFromClient|SMon Feb 23 14:52:12 EST 2015T|1424721132166|1424721131374|1424721132166|hello|
+weaf|zcvs|Keypressed|SMon Feb 23 14:52:14 EST 2015T|1424721134627|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:52:14 EST 2015T|1424721134628|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:52:14 EST 2015T|1424721134738|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:52:14 EST 2015T|1424721134739|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:52:14 EST 2015T|1424721134839|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:52:14 EST 2015T|1424721134839|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:52:14 EST 2015T|1424721134942|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:52:14 EST 2015T|1424721134942|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:52:15 EST 2015T|1424721135053|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:52:15 EST 2015T|1424721135054|| |
+weaf|zcvs|ChatTextFromClient|SMon Feb 23 14:52:15 EST 2015T|1424721135173|1424721134626|1424721135173|what|
+weaf|zcvs|Keypressed|SMon Feb 23 14:53:08 EST 2015T|1424721188449|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:53:08 EST 2015T|1424721188450|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:53:08 EST 2015T|1424721188548|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:53:08 EST 2015T|1424721188550|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:53:08 EST 2015T|1424721188740|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:53:08 EST 2015T|1424721188741|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:53:08 EST 2015T|1424721188813|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:53:08 EST 2015T|1424721188814|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:53:08 EST 2015T|1424721188940|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:53:08 EST 2015T|1424721188941|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:53:09 EST 2015T|1424721189016|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:53:09 EST 2015T|1424721189018|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:53:09 EST 2015T|1424721189077|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:53:09 EST 2015T|1424721189082|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:53:09 EST 2015T|1424721189638|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:53:09 EST 2015T|1424721189638|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:53:09 EST 2015T|1424721189806|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:53:09 EST 2015T|1424721189807|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:53:10 EST 2015T|1424721190019|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:53:10 EST 2015T|1424721190020|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:53:10 EST 2015T|1424721190227|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:53:10 EST 2015T|1424721190229|| |
+weaf|zcvs|Keypressed|SMon Feb 23 14:53:10 EST 2015T|1424721190324|| |
+weaf|zcvs|WYSIWYGDocSyncFromClient|SMon Feb 23 14:53:10 EST 2015T|1424721190324|| |
+weaf|zcvs|ChatTextFromClient|SMon Feb 23 14:53:10 EST 2015T|1424721190469|1424721188450|1424721190469|why is text|
