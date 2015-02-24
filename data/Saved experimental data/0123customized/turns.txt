@@ -1,0 +1,3 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+cmaosvn|waoieh|Default|1424748800891|0|1679|1679|2|waoieh|hello|, awoeihg|OK|0|0|0|0|0|||||
+server|server|abcDATA|1424748830571|31306|31306|0|0|server|The survey was submitted.||OK|0|0|0|0|0|||||

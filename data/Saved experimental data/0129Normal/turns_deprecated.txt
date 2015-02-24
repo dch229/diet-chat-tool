@@ -1,0 +1,4 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+aergvae|avefa|Default|1424754599153|0|507|507|3|avefa|hi|, aewva|OK|0|0|0|0|0|||||
+eragv|aewva|Default|1424754603766|4230|5118|888|5|aewva|hello|, avefa|OK|0|0|0|0|0||1424754599204|avefa|hi|
+aergvae|avefa|Default|1424754607158|7998|8509|511|7|avefa|what|, aewva|OK|0|0|0|0|0||1424754603773|aewva|hello|

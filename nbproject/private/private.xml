@@ -11,20 +11,16 @@
             <url>src/diet/server/Conversation.java</url>
             <bookmark id="0">
                 <name/>
-                <line>1395</line>
+                <line>1389</line>
                 <key/>
             </bookmark>
         </file>
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/diet/server/ConversationController/CCCUSTOM1.java</file>
-            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/diet/client/WebpageAndImageDisplay.java</file>
-            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/cornell/mchci/TestPanel.java</file>
-            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/diet/client/ConnectionToServer.java</file>
-            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/diet/server/Conversation.java</file>
-            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/cornell/mchci/MessageDisplaySurvey.java</file>
-            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/diet/message/MessageDisplayNEWWebpage.java</file>
+            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/diet/server/ConversationController/CCCUSTOM1.java</file>
+            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/cornell/mchci/SurveyJFrame.java</file>
+            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/cornell/mchci/TheSurveyFrame.java</file>
         </group>
     </open-files>
 </project-private>

@@ -1,0 +1,48 @@
+aeba|aerg|Keypressed|STue Feb 24 00:14:23 EST 2015T|1424754863106|| |
+aeba|aerg|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:23 EST 2015T|1424754863110|| |
+aeba|aerg|Keypressed|STue Feb 24 00:14:23 EST 2015T|1424754863182|| |
+aeba|aerg|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:23 EST 2015T|1424754863183|| |
+aeba|aerg|Keypressed|STue Feb 24 00:14:23 EST 2015T|1424754863304|| |
+aeba|aerg|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:23 EST 2015T|1424754863304|| |
+aeba|aerg|Keypressed|STue Feb 24 00:14:23 EST 2015T|1424754863425|| |
+aeba|aerg|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:23 EST 2015T|1424754863426|| |
+aeba|aerg|Keypressed|STue Feb 24 00:14:23 EST 2015T|1424754863689|| |
+aeba|aerg|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:23 EST 2015T|1424754863690|| |
+aeba|aerg|Keypressed|STue Feb 24 00:14:23 EST 2015T|1424754863920|| |
+aeba|aerg|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:23 EST 2015T|1424754863924|| |
+aeba|aerg|ChatTextFromClient|STue Feb 24 00:14:23 EST 2015T|1424754863978|1424754863101|1424754863978|hello|
+aeba|aerg|ChatTextToClient|STue Feb 24 00:14:23 EST 2015T|1424754863981|| |
+aerg|avbe|Keypressed|STue Feb 24 00:14:26 EST 2015T|1424754866184|| |
+aerg|avbe|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:26 EST 2015T|1424754866186|| |
+aerg|avbe|Keypressed|STue Feb 24 00:14:26 EST 2015T|1424754866558|| |
+aerg|avbe|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:26 EST 2015T|1424754866559|| |
+aerg|avbe|Keypressed|STue Feb 24 00:14:26 EST 2015T|1424754866967|| |
+aerg|avbe|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:26 EST 2015T|1424754866968|| |
+aerg|avbe|ChatTextFromClient|STue Feb 24 00:14:27 EST 2015T|1424754867040|1424754866185|1424754867040|hi|
+aerg|avbe|ChatTextToClient|STue Feb 24 00:14:27 EST 2015T|1424754867043|| |
+aerg|avbe|Keypressed|STue Feb 24 00:14:27 EST 2015T|1424754867686|| |
+aerg|avbe|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:27 EST 2015T|1424754867686|| |
+aerg|avbe|Keypressed|STue Feb 24 00:14:27 EST 2015T|1424754867791|| |
+aerg|avbe|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:27 EST 2015T|1424754867792|| |
+aerg|avbe|Keypressed|STue Feb 24 00:14:27 EST 2015T|1424754867960|| |
+aerg|avbe|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:27 EST 2015T|1424754867961|| |
+aerg|avbe|Keypressed|STue Feb 24 00:14:28 EST 2015T|1424754868045|| |
+aerg|avbe|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:28 EST 2015T|1424754868046|| |
+aerg|avbe|Keypressed|STue Feb 24 00:14:28 EST 2015T|1424754868166|| |
+aerg|avbe|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:28 EST 2015T|1424754868167|| |
+aerg|avbe|Keypressed|STue Feb 24 00:14:28 EST 2015T|1424754868277|| |
+aerg|avbe|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:28 EST 2015T|1424754868278|| |
+aerg|avbe|ChatTextFromClient|STue Feb 24 00:14:28 EST 2015T|1424754868351|1424754867687|1424754868351|there|
+aerg|avbe|ChatTextToClient|STue Feb 24 00:14:28 EST 2015T|1424754868351|| |
+aeba|aerg|Keypressed|STue Feb 24 00:14:29 EST 2015T|1424754869534|| |
+aeba|aerg|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:29 EST 2015T|1424754869536|| |
+aeba|aerg|Keypressed|STue Feb 24 00:14:29 EST 2015T|1424754869613|| |
+aeba|aerg|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:29 EST 2015T|1424754869614|| |
+aeba|aerg|Keypressed|STue Feb 24 00:14:29 EST 2015T|1424754869703|| |
+aeba|aerg|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:29 EST 2015T|1424754869704|| |
+aeba|aerg|Keypressed|STue Feb 24 00:14:29 EST 2015T|1424754869782|| |
+aeba|aerg|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:29 EST 2015T|1424754869786|| |
+aeba|aerg|Keypressed|STue Feb 24 00:14:29 EST 2015T|1424754869862|| |
+aeba|aerg|WYSIWYGDocSyncFromClient|STue Feb 24 00:14:29 EST 2015T|1424754869863|| |
+aeba|aerg|ChatTextFromClient|STue Feb 24 00:14:29 EST 2015T|1424754869921|1424754869535|1424754869921|what|
+aeba|aerg|ChatTextToClient|STue Feb 24 00:14:29 EST 2015T|1424754869922|| |

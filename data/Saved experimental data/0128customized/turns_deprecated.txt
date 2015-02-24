@@ -1,0 +1,4 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+dakmvlc|weoifh|Default|1424754531523|0|780|780|6|weoifh|hello|, waeoif|OK|0|0|0|0|0|||||
+server|server|abcDATA|1424754537035|6283|6283|0|0|server|**SURVEY RESPONSE: weoifh** Q1: 4 / Q2: 6 / Q3: somewhat / Q4:  / ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424754537469|6717|6717|0|0|server|**SURVEY RESPONSE: waeoif** Q1: 1 / Q2: 1 / Q3: somewhat / Q4:  / ||OK|0|0|0|0|0|||||

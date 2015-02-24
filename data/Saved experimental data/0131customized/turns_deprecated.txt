@@ -1,0 +1,7 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+cawes|wagrdf|Default|1424754699113|0|437|437|4|wagrdf|hi|, aervfa|OK|0|0|0|0|0|||||
+regav|aervfa|Default|1424754702018|2533|3333|800|6|aervfa|hello|, wagrdf|OK|0|0|0|0|0||1424754699173|wagrdf|hi|
+cawes|wagrdf|Default|1424754703322|4183|4639|456|8|wagrdf|what|, aervfa|OK|0|0|0|0|0||1424754702025|aervfa|hello|
+regav|aervfa|Default|1424754709874|8645|11189|2544|9|aervfa|you can never say never|, wagrdf|OK|0|0|0|0|0||1424754703331|wagrdf|what|
+server|server|abcDATA|1424754721752|23065|23065|0|0|server|**SURVEY RESPONSE: wagrdf** Q1: 1 / Q2: 1 / Q3: somewhat / Q4:  / ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424754722348|23661|23661|0|0|server|**SURVEY RESPONSE: aervfa** Q1: 1 / Q2: 1 / Q3: somewhat / Q4:  / ||OK|0|0|0|0|0|||||

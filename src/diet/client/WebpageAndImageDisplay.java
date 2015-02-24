@@ -6,6 +6,7 @@
 package diet.client;
 
 import cornell.mchci.TestPanel;
+import cornell.mchci.TheSurveyFrame;
 import java.awt.Color;
 import java.awt.Font;
 import java.util.Collection;
@@ -54,8 +55,9 @@ public class WebpageAndImageDisplay {
      
      public void displaySurvey(String id, String header){
          //TODO: open real survey here
-         TestPanel tp = new TestPanel(cts);
-         tp.setVisible(true);
+         
+         TheSurveyFrame ts = new TheSurveyFrame(cts);
+         ts.setVisible(true);
      }
 
       public void changeWebpage(String id,String url, String prepend, String append){

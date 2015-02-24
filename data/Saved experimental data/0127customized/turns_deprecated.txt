@@ -1,0 +1,5 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+csdw|awoeihf|Default|1424754372028|0|376|376|5|awoeihf|hi|, aweon|OK|0|0|0|0|0|||||
+aeirwugh|aweon|Default|1424754375283|2698|3626|928|5|aweon|hello|, awoeihf|OK|0|0|0|0|0||1424754372040|awoeihf|hi|
+aeirwugh|aweon|Default|1424754387418|15139|15761|622|6|aweon|okay|, awoeihf|OK|0|0|0|0|0|||||
+csdw|awoeihf|Default|1424754389090|16674|17433|759|6|awoeihf|hello|, aweon|OK|0|0|0|0|0||1424754387420|aweon|okay|

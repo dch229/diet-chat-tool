@@ -1,0 +1,5 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+fwaeoigh|cvainow|Default|1424754755963|0|506|506|3|cvainow|hi|, aworinv|OK|0|0|0|0|0|||||
+fwaeoigh|cvainow|NOTRELAYED.|1424754755963|0|506|506|3|cvainow|hi||OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424754755995|529|529|0|0|cvainow|hi...which is great|, aworinv|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424754755995|529|529|0|0|cvainow|hi...which is great|, aworinv|OK|0|0|0|0|0|||||

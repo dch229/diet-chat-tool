@@ -1,0 +1,3 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+server|server|abcDATA|1424754044068|0|0|0|0|server|The survey was submitted.||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424754045173|1105|1105|0|0|server|The survey was submitted.||OK|0|0|0|0|0|||||

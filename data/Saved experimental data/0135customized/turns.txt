@@ -1,0 +1,29 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+awoirgh|dklmsv|Default|1424754909122|0|1606|1606|3|dklmsv|hello|, agronv|OK|1|1|0|1|0|||||
+awoirgh|dklmsv|NOTRELAYED.|1424754909122|0|1606|1606|3|dklmsv|hello||OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424754909148|1619|1619|0|0|dklmsv|hello|, agronv|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424754909148|1619|1619|0|0|dklmsv|hello|, agronv|OK|0|0|0|0|0|||||
+owihefago|agronv|Default|1424754913029|3652|5502|1850|8|agronv|well hello there|, dklmsv|OK|0|0|0|0|0||1424754909149|dklmsv|hello|
+owihefago|agronv|NOTRELAYED.|1424754913029|3652|5502|1850|8|agronv|well hello there||OK|0|0|0|0|0||1424754909149|dklmsv|hello|
+server|server|ARTIFICIALTURN|1424754913031|5502|5502|0|0|agronv|well hello there|, dklmsv|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424754913032|5503|5503|0|0|agronv|well hello there|, dklmsv|OK|0|0|0|0|0|||||
+awoirgh|dklmsv|Default|1424754915188|6673|7661|988|9|dklmsv|okay then|, agronv|OK|0|0|0|0|0||1424754913033|agronv|well hello there|
+awoirgh|dklmsv|NOTRELAYED.|1424754915188|6673|7661|988|9|dklmsv|okay then||OK|0|0|0|0|0||1424754913033|agronv|well hello there|
+server|server|ARTIFICIALTURN|1424754915191|7662|7662|0|0|dklmsv|okay then|, agronv|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424754915191|7662|7662|0|0|dklmsv|okay then|, agronv|OK|0|0|0|0|0|||||
+owihefago|agronv|Default|1424754917163|8299|9635|1336|5|agronv|do do do|, dklmsv|OK|0|0|0|0|0||1424754915192|dklmsv|okay then|
+owihefago|agronv|NOTRELAYED.|1424754917163|8299|9635|1336|5|agronv|do do do||OK|0|0|0|0|0||1424754915192|dklmsv|okay then|
+server|server|ARTIFICIALTURN|1424754917165|9636|9636|0|0|agronv|do do do|, dklmsv|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424754917165|9636|9636|0|0|agronv|do do do|, dklmsv|OK|0|0|0|0|0|||||
+awoirgh|dklmsv|Default|1424754918868|10404|11340|936|8|dklmsv|hahahaha|, agronv|OK|0|0|0|0|0||1424754917166|agronv|do do do|
+awoirgh|dklmsv|NOTRELAYED.|1424754918868|10404|11340|936|8|dklmsv|hahahaha||OK|0|0|0|0|0||1424754917166|agronv|do do do|
+server|server|ARTIFICIALTURN|1424754918870|11341|11341|0|0|dklmsv|hahahaha|, agronv|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424754918870|11341|11341|0|0|dklmsv|hahahaha|, agronv|OK|0|0|0|0|0|||||
+owihefago|agronv|Default|1424754920955|12329|13428|1099|8|agronv|well then|, dklmsv|OK|0|0|0|0|0||1424754918870|dklmsv|hahahaha|
+owihefago|agronv|NOTRELAYED.|1424754920955|12329|13428|1099|8|agronv|well then||OK|0|0|0|0|0||1424754918870|dklmsv|hahahaha|
+server|server|ARTIFICIALTURN|1424754920957|13428|13428|0|0|agronv|well then|, dklmsv|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424754920957|13428|13428|0|0|agronv|well then|, dklmsv|OK|0|0|0|0|0|||||
+awoirgh|dklmsv|Default|1424754922627|14121|15100|979|9|dklmsv|okay sure|, agronv|OK|0|0|0|0|0||1424754920958|agronv|well then|
+awoirgh|dklmsv|NOTRELAYED.|1424754922627|14121|15100|979|9|dklmsv|okay sure||OK|0|0|0|0|0||1424754920958|agronv|well then|
+server|server|ARTIFICIALTURN|1424754922633|15104|15104|0|0|dklmsv|okay sure|, agronv|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424754922634|15105|15105|0|0|dklmsv|okay sure|, agronv|OK|0|0|0|0|0|||||

@@ -5,6 +5,7 @@
  */
 package cornell.mchci;
 
+import diet.client.ConnectionToServer;
 import diet.server.Conversation;
 import diet.server.Participant;
 import java.awt.Container;
@@ -21,8 +22,6 @@ import java.util.*;
  * @author dhau
  */
 public class TheSurveyFrame extends JFrame {
-    Conversation chat;
-    Participant p;
     JLabel[] questions;
     JButton submitButton;
     ArrayList allRadioButtons;
@@ -50,12 +49,11 @@ public class TheSurveyFrame extends JFrame {
     
 
     
-    
-    public TheSurveyFrame(Conversation chat, final Participant p){
+    private ConnectionToServer cts;
+    public TheSurveyFrame(ConnectionToServer cts){
         super("Survey Form");
         
-        this.chat = chat;
-        this.p = p;
+        this.cts = cts;
         
         Container c = getContentPane();
         FlowLayout fl = new FlowLayout(FlowLayout.LEFT);
@@ -123,7 +121,7 @@ public class TheSurveyFrame extends JFrame {
     
     private void getSubmitString() {                                         
         // TODO add your handling code here:
-        String logString = "**SURVEY RESPONSE: "+ p.getParticipantID() + "** ";
+        String logString = "**SURVEY RESPONSE: "+ cts.getUsername() + "** ";
         
         logString += "Q1: " + extractButtonText(grp_1) + " / ";
         logString += "Q2: " + extractButtonText(grp_2) + " / ";
@@ -131,7 +129,8 @@ public class TheSurveyFrame extends JFrame {
         logString += "Q4: " + q4Answer.getText() + " / ";
 
         
-        chat.saveDataToConversationHistory("abc", logString);
+        cts.sendSurveySubmitted(logString);
+        setVisible(false);
         setVisible(false);
     }
     

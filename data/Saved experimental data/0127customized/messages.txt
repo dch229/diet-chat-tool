@@ -1,0 +1,48 @@
+csdw|awoeihf|Keypressed|STue Feb 24 00:06:11 EST 2015T|1424754371662|| |
+csdw|awoeihf|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:11 EST 2015T|1424754371666|| |
+csdw|awoeihf|Keypressed|STue Feb 24 00:06:11 EST 2015T|1424754371732|| |
+csdw|awoeihf|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:11 EST 2015T|1424754371734|| |
+csdw|awoeihf|Keypressed|STue Feb 24 00:06:11 EST 2015T|1424754371981|| |
+csdw|awoeihf|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:11 EST 2015T|1424754371983|| |
+csdw|awoeihf|ChatTextFromClient|STue Feb 24 00:06:12 EST 2015T|1424754372034|1424754371658|1424754372034|hi|
+csdw|awoeihf|ChatTextToClient|STue Feb 24 00:06:12 EST 2015T|1424754372037|| |
+aeirwugh|aweon|Keypressed|STue Feb 24 00:06:14 EST 2015T|1424754374357|| |
+aeirwugh|aweon|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:14 EST 2015T|1424754374360|| |
+aeirwugh|aweon|Keypressed|STue Feb 24 00:06:14 EST 2015T|1424754374517|| |
+aeirwugh|aweon|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:14 EST 2015T|1424754374518|| |
+aeirwugh|aweon|Keypressed|STue Feb 24 00:06:14 EST 2015T|1424754374701|| |
+aeirwugh|aweon|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:14 EST 2015T|1424754374703|| |
+aeirwugh|aweon|Keypressed|STue Feb 24 00:06:14 EST 2015T|1424754374851|| |
+aeirwugh|aweon|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:14 EST 2015T|1424754374853|| |
+aeirwugh|aweon|Keypressed|STue Feb 24 00:06:15 EST 2015T|1424754375014|| |
+aeirwugh|aweon|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:15 EST 2015T|1424754375015|| |
+aeirwugh|aweon|Keypressed|STue Feb 24 00:06:15 EST 2015T|1424754375219|| |
+aeirwugh|aweon|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:15 EST 2015T|1424754375220|| |
+aeirwugh|aweon|ChatTextFromClient|STue Feb 24 00:06:15 EST 2015T|1424754375284|1424754374356|1424754375284|hello|
+aeirwugh|aweon|ChatTextToClient|STue Feb 24 00:06:15 EST 2015T|1424754375284|| |
+aeirwugh|aweon|Keypressed|STue Feb 24 00:06:26 EST 2015T|1424754386797|| |
+aeirwugh|aweon|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:26 EST 2015T|1424754386800|| |
+aeirwugh|aweon|Keypressed|STue Feb 24 00:06:26 EST 2015T|1424754386965|| |
+aeirwugh|aweon|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:26 EST 2015T|1424754386966|| |
+aeirwugh|aweon|Keypressed|STue Feb 24 00:06:27 EST 2015T|1424754387052|| |
+aeirwugh|aweon|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:27 EST 2015T|1424754387053|| |
+aeirwugh|aweon|Keypressed|STue Feb 24 00:06:27 EST 2015T|1424754387172|| |
+aeirwugh|aweon|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:27 EST 2015T|1424754387174|| |
+aeirwugh|aweon|Keypressed|STue Feb 24 00:06:27 EST 2015T|1424754387363|| |
+aeirwugh|aweon|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:27 EST 2015T|1424754387364|| |
+aeirwugh|aweon|ChatTextFromClient|STue Feb 24 00:06:27 EST 2015T|1424754387419|1424754386797|1424754387419|okay|
+aeirwugh|aweon|ChatTextToClient|STue Feb 24 00:06:27 EST 2015T|1424754387419|| |
+csdw|awoeihf|Keypressed|STue Feb 24 00:06:28 EST 2015T|1424754388331|| |
+csdw|awoeihf|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:28 EST 2015T|1424754388333|| |
+csdw|awoeihf|Keypressed|STue Feb 24 00:06:28 EST 2015T|1424754388444|| |
+csdw|awoeihf|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:28 EST 2015T|1424754388447|| |
+csdw|awoeihf|Keypressed|STue Feb 24 00:06:28 EST 2015T|1424754388580|| |
+csdw|awoeihf|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:28 EST 2015T|1424754388581|| |
+csdw|awoeihf|Keypressed|STue Feb 24 00:06:28 EST 2015T|1424754388692|| |
+csdw|awoeihf|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:28 EST 2015T|1424754388695|| |
+csdw|awoeihf|Keypressed|STue Feb 24 00:06:28 EST 2015T|1424754388852|| |
+csdw|awoeihf|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:28 EST 2015T|1424754388856|| |
+csdw|awoeihf|Keypressed|STue Feb 24 00:06:29 EST 2015T|1424754389036|| |
+csdw|awoeihf|WYSIWYGDocSyncFromClient|STue Feb 24 00:06:29 EST 2015T|1424754389037|| |
+csdw|awoeihf|ChatTextFromClient|STue Feb 24 00:06:29 EST 2015T|1424754389091|1424754388332|1424754389091|hello|
+csdw|awoeihf|ChatTextToClient|STue Feb 24 00:06:29 EST 2015T|1424754389091|| |

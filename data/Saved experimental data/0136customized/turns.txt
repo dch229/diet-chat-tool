@@ -1,0 +1,35 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+woeihf|dclnsv|Default|1424754996161|0|952|952|5|dclnsv|hwllo|, vanla|OK|0|0|0|0|0|||||
+woeihf|dclnsv|NOTRELAYED.|1424754996161|0|952|952|5|dclnsv|hwllo||OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424754996331|1114|1114|0|0|dclnsv|hwllo|, vanla|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424754996337|1120|1120|0|0|dclnsv|hwllo|, vanla|OK|0|0|0|0|0|||||
+woeihf|dclnsv|Default|1424755000625|3945|5409|1464|8|dclnsv|on your mind|, vanla|OK|0|0|0|0|0|||||
+woeihf|dclnsv|NOTRELAYED.|1424755000625|3945|5409|1464|8|dclnsv|on your mind||OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424755000627|5410|5410|0|0|dclnsv|on your mind|, vanla|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424755000628|5411|5411|0|0|dclnsv|on your mind|, vanla|OK|0|0|0|0|0|||||
+woeihf|dclnsv|Default|1424755005272|6325|10059|3734|8|dclnsv|even the best fall down sometime|, vanla|OK|0|0|0|0|0|||||
+woeihf|dclnsv|NOTRELAYED.|1424755005272|6325|10059|3734|8|dclnsv|even the best fall down sometime||OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424755005278|10061|10061|0|0|dclnsv|even the best fall down sometime|, vanla|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424755005279|10062|10062|0|0|dclnsv|even the best fall down sometime|, vanla|OK|0|0|0|0|0|||||
+aeorigh|vanla|Default|1424755010753|11692|15541|3849|7|vanla|even the stars refuse to shine|, dclnsv|OK|1|1|0|1|0||1424755005279|dclnsv|even the best fall down sometime|
+aeorigh|vanla|NOTRELAYED.|1424755010753|11692|15541|3849|7|vanla|even the stars refuse to shine||OK|0|0|0|0|0||1424755005279|dclnsv|even the best fall down sometime|
+server|server|ARTIFICIALTURN|1424755010762|15545|15545|0|0|vanla|even the stars refuse to shine|, dclnsv|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424755010763|15546|15546|0|0|vanla|even the stars refuse to shine|, dclnsv|OK|0|0|0|0|0|||||
+woeihf|dclnsv|Default|1424755022520|16890|27306|10416|3|dclnsv|we'll somehow find you and i collide|, vanla|OK|13|12|0|12|0||1424755010765|vanla|even the stars refuse to shine|
+woeihf|dclnsv|NOTRELAYED.|1424755022520|16890|27306|10416|3|dclnsv|we'll somehow find you and i collide||OK|0|0|0|0|0||1424755010765|vanla|even the stars refuse to shine|
+server|server|ARTIFICIALTURN|1424755022524|27307|27307|0|0|dclnsv|we'll somehow find you and i collide|, vanla|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424755022524|27307|27308|1|36000|dclnsv|we'll somehow find you and i collide|, vanla|OK|0|0|0|0|0|||||
+aeorigh|vanla|Default|1424755028592|31545|33376|1831|8|vanla|don't stop here|, dclnsv|OK|0|0|0|0|0||1424755022525|dclnsv|we'll somehow find you and i collide|
+aeorigh|vanla|NOTRELAYED.|1424755028592|31545|33376|1831|8|vanla|don't stop here||OK|0|0|0|0|0||1424755022525|dclnsv|we'll somehow find you and i collide|
+server|server|ARTIFICIALTURN|1424755028594|33377|33377|0|0|vanla|don't stop here|, dclnsv|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424755028594|33377|33377|0|0|vanla|don't stop here|, dclnsv|OK|0|0|0|0|0|||||
+woeihf|dclnsv|Default|1424755038407|35179|43193|8014|2|dclnsv|I've lost my plaaace|, vanla|OK|6|6|0|6|0||1424755028594|vanla|don't stop here|
+woeihf|dclnsv|NOTRELAYED.|1424755038407|35179|43193|8014|2|dclnsv|I've lost my plaaace||OK|0|0|0|0|0||1424755028594|vanla|don't stop here|
+server|server|ARTIFICIALTURN|1424755038410|43193|43193|0|0|dclnsv|I've lost my plaaace|, vanla|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424755038411|43194|43194|0|0|dclnsv|I've lost my plaaace|, vanla|OK|0|0|0|0|0|||||
+aeorigh|vanla|Default|1424755046394|46615|51178|4563|4|vanla|And I'm close behind|, dclnsv|OK|1|1|0|1|0||1424755038412|dclnsv|I've lost my plaaace|
+aeorigh|vanla|NOTRELAYED.|1424755046394|46615|51178|4563|4|vanla|And I'm close behind||OK|0|0|0|0|0||1424755038412|dclnsv|I've lost my plaaace|
+server|server|ARTIFICIALTURN|1424755046396|51179|51179|0|0|vanla|And I'm close behind|, dclnsv|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1424755046397|51180|51180|0|0|vanla|And I'm close behind|, dclnsv|OK|0|0|0|0|0|||||
+server|server|abcDATA|1424755058864|63647|63647|0|0|server|**SURVEY RESPONSE: dclnsv** Q1: 1 / Q2: 1 / Q3: somewhat / Q4:  / ||OK|0|0|0|0|0|||||
+server|server|abcDATA|1424755059473|64256|64256|0|0|server|**SURVEY RESPONSE: vanla** Q1: 1 / Q2: 1 / Q3: somewhat / Q4:  / ||OK|0|0|0|0|0|||||
