@@ -1,0 +1,43 @@
+dfadfaga|agdgadg|ChatTextFromClient|SSun Mar 01 21:21:39 EST 2015T|1425262899161|0|1425262899161||
+dfadfaga|agdgadg|ChatTextToClient|SSun Mar 01 21:21:39 EST 2015T|1425262899177|| |
+server|agdgadg|ChatTextToClient|SSun Mar 01 21:21:39 EST 2015T|1425262899177|| |
+dagdaljgh|agkajdlg|Keypressed|SSun Mar 01 21:21:42 EST 2015T|1425262902288|| |
+dagdaljgh|agkajdlg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:42 EST 2015T|1425262902304|| |
+dagdaljgh|agkajdlg|Keypressed|SSun Mar 01 21:21:42 EST 2015T|1425262902319|| |
+dagdaljgh|agkajdlg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:42 EST 2015T|1425262902319|| |
+dagdaljgh|agkajdlg|Keypressed|SSun Mar 01 21:21:42 EST 2015T|1425262902335|| |
+dagdaljgh|agkajdlg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:42 EST 2015T|1425262902335|| |
+dagdaljgh|agkajdlg|Keypressed|SSun Mar 01 21:21:42 EST 2015T|1425262902522|| |
+dagdaljgh|agkajdlg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:42 EST 2015T|1425262902522|| |
+dagdaljgh|agkajdlg|Keypressed|SSun Mar 01 21:21:42 EST 2015T|1425262902522|| |
+dagdaljgh|agkajdlg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:42 EST 2015T|1425262902522|| |
+dagdaljgh|agkajdlg|Keypressed|SSun Mar 01 21:21:42 EST 2015T|1425262902600|| |
+dagdaljgh|agkajdlg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:42 EST 2015T|1425262902600|| |
+dagdaljgh|agkajdlg|Keypressed|SSun Mar 01 21:21:42 EST 2015T|1425262902600|| |
+dagdaljgh|agkajdlg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:42 EST 2015T|1425262902600|| |
+dagdaljgh|agkajdlg|Keypressed|SSun Mar 01 21:21:42 EST 2015T|1425262902788|| |
+dagdaljgh|agkajdlg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:42 EST 2015T|1425262902788|| |
+dagdaljgh|agkajdlg|ChatTextFromClient|SSun Mar 01 21:21:42 EST 2015T|1425262902866|1425262902288|1425262902866|akljdlg|
+dagdaljgh|agkajdlg|ChatTextToClient|SSun Mar 01 21:21:42 EST 2015T|1425262902866|| |
+server|agkajdlg|ChatTextToClient|SSun Mar 01 21:21:42 EST 2015T|1425262902866|| |
+dfadfaga|agdgadg|Keypressed|SSun Mar 01 21:21:44 EST 2015T|1425262904341|| |
+dfadfaga|agdgadg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:44 EST 2015T|1425262904356|| |
+dfadfaga|agdgadg|Keypressed|SSun Mar 01 21:21:44 EST 2015T|1425262904388|| |
+dfadfaga|agdgadg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:44 EST 2015T|1425262904388|| |
+dfadfaga|agdgadg|Keypressed|SSun Mar 01 21:21:44 EST 2015T|1425262904388|| |
+dfadfaga|agdgadg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:44 EST 2015T|1425262904388|| |
+dfadfaga|agdgadg|Keypressed|SSun Mar 01 21:21:44 EST 2015T|1425262904388|| |
+dfadfaga|agdgadg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:44 EST 2015T|1425262904388|| |
+dfadfaga|agdgadg|Keypressed|SSun Mar 01 21:21:44 EST 2015T|1425262904497|| |
+dfadfaga|agdgadg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:44 EST 2015T|1425262904497|| |
+dfadfaga|agdgadg|Keypressed|SSun Mar 01 21:21:44 EST 2015T|1425262904622|| |
+dfadfaga|agdgadg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:44 EST 2015T|1425262904622|| |
+dfadfaga|agdgadg|Keypressed|SSun Mar 01 21:21:44 EST 2015T|1425262904653|| |
+dfadfaga|agdgadg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:44 EST 2015T|1425262904653|| |
+dfadfaga|agdgadg|Keypressed|SSun Mar 01 21:21:44 EST 2015T|1425262904700|| |
+dfadfaga|agdgadg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:44 EST 2015T|1425262904700|| |
+dfadfaga|agdgadg|Keypressed|SSun Mar 01 21:21:45 EST 2015T|1425262905018|| |
+dfadfaga|agdgadg|WYSIWYGDocSyncFromClient|SSun Mar 01 21:21:45 EST 2015T|1425262905018|| |
+dfadfaga|agdgadg|ChatTextFromClient|SSun Mar 01 21:21:45 EST 2015T|1425262905096|1425262904341|1425262905096|gal;ga;g|
+dfadfaga|agdgadg|ChatTextToClient|SSun Mar 01 21:21:45 EST 2015T|1425262905096|| |
+server|agdgadg|ChatTextToClient|SSun Mar 01 21:21:45 EST 2015T|1425262905096|| |

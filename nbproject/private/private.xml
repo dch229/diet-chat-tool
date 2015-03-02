@@ -18,9 +18,10 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/diet/server/ConversationController/CCCUSTOM1.java</file>
-            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/cornell/mchci/SurveyJFrame.java</file>
-            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/cornell/mchci/TheSurveyFrame.java</file>
+            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/diet/client/ConnectionToServer.java</file>
+            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/diet/message/MessageClientSetupParametersWithSendButtonAndTextEntryWidthByHeight.java</file>
+            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/diet/client/JChatFrameMultipleWindowsWithSendButtonWidthByHeight.java</file>
+            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/cornell/mchci/MessageDisplaySurvey.java</file>
         </group>
     </open-files>
 </project-private>

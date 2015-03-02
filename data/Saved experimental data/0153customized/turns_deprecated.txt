@@ -1,0 +1,9 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+gadglkjdahl;a|h;al;ah|Default|1425264412941|0|1425264412941|1425264412941|0|h;al;ah||, agkladjhal;h|OK|0|0|0|0|0|||||
+gadglkjdahl;a|h;al;ah|NOTRELAYED.|1425264412941|0|1425264412941|1425264412941|0|h;al;ah|||OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1425264412951|1425264412951|1425264412951|0|0|h;al;ah||, agkladjhal;h|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1425264412951|1425264412951|1425264412951|0|0|h;al;ah||, agkladjhal;h|OK|0|0|0|0|0|||||
+gahjakh|agkladjhal;h|Default|1425264415902|1425264415009|1425264415902|893|5|agkladjhal;h|asagf|, h;al;ah|OK|0|0|0|0|0||1425264412951|h;al;ah||
+gahjakh|agkladjhal;h|NOTRELAYED.|1425264415902|1425264415009|1425264415902|893|5|agkladjhal;h|asagf||OK|0|0|0|0|0||1425264412951|h;al;ah||
+server|server|ARTIFICIALTURN|1425264415902|1425264415902|1425264415902|0|0|agkladjhal;h|asagf|, h;al;ah|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1425264415902|1425264415902|1425264415902|0|0|agkladjhal;h|asagf|, h;al;ah|OK|0|0|0|0|0|||||
