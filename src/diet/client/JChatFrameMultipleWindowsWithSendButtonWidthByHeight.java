@@ -1,5 +1,6 @@
 package diet.client;
 
+import cornell.mchci.SurveyBoxJFrame;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
@@ -40,6 +41,16 @@ public class JChatFrameMultipleWindowsWithSendButtonWidthByHeight extends JChatF
     JLabel jLabeldisplay = new JLabel("Normal operation");
     int participantsOwnWindowForTextEntry;
     InputDocumentListener jtpDocumentListener;
+    
+    //TODO: find a better place for this
+    SurveyBoxJFrame surveyBox;
+    public void setConnectionToServer(ConnectionToServer cts){
+        surveyBox.setConnectionToServer(cts);
+    }
+    
+    public SurveyBoxJFrame getSurveyBox(){
+        return surveyBox;
+    }
 
     //JButton jb = new JButton();
     @Override
@@ -125,9 +136,12 @@ public class JChatFrameMultipleWindowsWithSendButtonWidthByHeight extends JChatF
             this.getContentPane().add(leftJPanel);
             
             // ADD THE SURVEY AND INSTRUCTIONS HERE
-            JPanel rightJPanel = new JPanel();
-            rightJPanel.setPreferredSize(new Dimension(textEntryWidth, textEntryHeight));
-            this.getContentPane().add(rightJPanel);
+            //JPanel rightJPanel = (new SurveyBoxJFrame()).getContentPane();
+            //rightJPanel.setPreferredSize(new Dimension(textEntryWidth, textEntryHeight));
+            //rightJPanel);
+            //TODO: Make SurveyBox a JPanel rather than JFrame
+            surveyBox = new SurveyBoxJFrame();
+            this.getContentPane().add(surveyBox.getContentPane());
             
             this.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
             setVisible(true);

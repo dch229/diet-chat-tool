@@ -53,6 +53,9 @@ public class ConnectionToServer extends Thread {
     private JFrameSubliminalStimuli jfsubliminalstimuli;
     private JFrameGridStimuli  jfgridstimuli;
    
+    //TODO: this shouldn't be here
+    JChatFrameMultipleWindowsWithSendButtonWidthByHeight jcfsw;
+    
     int turnsBetweenResets = 30;
     int counter =0;
     JChatFrame jf;
@@ -244,8 +247,8 @@ public class ConnectionToServer extends Thread {
            
             final MessageClientSetupParametersWithSendButtonAndTextEntryWidthByHeight mcspwbyh = (MessageClientSetupParametersWithSendButtonAndTextEntryWidthByHeight)m;
 
-
-            JChatFrameMultipleWindowsWithSendButtonWidthByHeight jcfsw;
+            
+            //JChatFrameMultipleWindowsWithSendButtonWidthByHeight jcfsw;
             jcfsw=null;
             
             try{
@@ -543,7 +546,9 @@ public class ConnectionToServer extends Thread {
           else if(m instanceof MessageDisplaySurvey){
               MessageDisplaySurvey mdw = (MessageDisplaySurvey)m;
               try{
-                  this.wiad.displaySurvey(mdw.getId(), mdw.getHeader());
+                  //this.wiad.displaySurvey(mdw.getId(), mdw.getHeader());
+                  jcfsw.getSurveyBox().setConnectionToServer(this);
+                  jcfsw.getSurveyBox().openSurvey();
               }catch(Exception e){
                   e.printStackTrace();
                   this.sendErrorMessage("ERRORDISPLAYINGNEWWEBPAGE");  

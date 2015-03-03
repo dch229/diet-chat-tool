@@ -5,7 +5,9 @@
  */
 package cornell.mchci;
 
+import diet.client.ConnectionToServer;
 import java.awt.Dimension;
+import java.awt.Font;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.ButtonGroup;
@@ -13,6 +15,8 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
+import javax.swing.UIManager;
+import javax.swing.plaf.FontUIResource;
 
 /**
  *
@@ -20,10 +24,17 @@ import javax.swing.JRadioButton;
  */
 public class SurveyBoxJFrame extends javax.swing.JFrame {
 
+    ButtonGroup[] surveyButtonGroups;
+    JRadioButton[] surveyButtons;
     String[] words = new String[]{  "Engaged", "Tense", "Friendly", "Talkative", "Offended",
     "Engaged", "Tense", "Friendly", "Talkative", "Offended"};
     
     Dimension size;
+    // TODO: find a better way to do this
+    ConnectionToServer cts;
+    public void setConnectionToServer(ConnectionToServer cts){
+        this.cts = cts;
+    }
     
     /**
      * Creates new form SurveyBoxJFrame
@@ -31,19 +42,70 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
     public SurveyBoxJFrame() {
         initComponents();
         
+        //TODO: setSurveyContent is used to get the size. May want to fix this.
+        setSurveyContent();
+        setInstructionContent();
+    }
+    
+    public void openSurvey(){
         setSurveyContent();
     }
     
     void setInstructionContent(){
+        getContentPane().removeAll();
+        
+        // TODO: this is bad. not sure why all font is bold in panel
+        UIManager.put("Label.font", new FontUIResource("Dialog", Font.PLAIN, 12));
         getContentPane().setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
         
-        for(int i = 0; i < 10; i++){
-            getContentPane().add(new JLabel("abc"));
+        String[] instructionContent = new String[]{
+            "Please start from <b>Dr. Wang</b>",
+            "and discuss the rank of each person on this list.",
+            "",
+            "",
+            "Dr. Wang",
+            "39, PhD in History, College Professor, good health, married with one child, Bobby. Active and hold conservative views.",
+            "Bobby Wang",
+            "10, Special Ed classes for four years, good health, enjoys his pets.",
+            "Mrs. Garcia",
+            "33, 9th grade education; cocktail waitress, good health, foster child, went to jail at 16, one child, three weeks old (Jean).",
+            "Jean Garcia",
+            "Three weeks old, good health, nursing for food.",
+            "John Cloud",
+            "13, good health, 8th grader, honor student, very active. Father is an environmental activist.",
+            "Ms. Newton",
+            "25, starting last year of Medical school; suspended, good health, criticized for liberal views.",
+            "Rita Moy",
+            "19, college freshman, unmarried, 4 months pregnant, good health, enjoys music, has taken several engineering courses, grew up in the inner city.",
+            "Mr. Blake",
+            "51, licensed mechanic, 'Mr. Fix-It', married, four children (not with him), good health, enjoys outdoors and working in his shop.",
+            "Dr. Gonzales",
+            "66, medical doctor, general practitioner, has had two heart attacks in past five years but continues to practice medicine. "
+        };
+        
+        for(int i = 0; i < instructionContent.length; i++){
+            String s = instructionContent[i];
+            if(i % 2 == 0 && i != 0){
+                s = "<html><b>" + s + "</b></html>";
+            } else {
+                s = "<html><wide>" + s + "</wide></html>";
+            }
+            JLabel label = new JLabel(s);
+            
+            getContentPane().add(label);
         }
+        
+        getContentPane().revalidate();
+        getContentPane().repaint();
     }
     
     void setSurveyContent(){
+        getContentPane().removeAll();
+        
+        UIManager.put("Label.font", new FontUIResource("Dialog", Font.PLAIN, 12));
         getContentPane().setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
+        surveyButtonGroups = new ButtonGroup[10];
+        surveyButtons = new JRadioButton[10 * 7];
         for(int i = 0; i < 10; i++){
             JPanel p = new JPanel();
             p.setLayout(new BoxLayout(p, BoxLayout.X_AXIS));
@@ -51,7 +113,8 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
             wordLabel.setPreferredSize(new Dimension(100, 50));
             //wordLabel.setAlignmentX(LEFT_ALIGNMENT);
             p.add(wordLabel);
-            p.add(Box.createHorizontalStrut(24));
+            p.add(Box.createHorizontalGlue());
+//p.add(Box.createHorizontalStrut(24));
             
             p.add(new JLabel("Agree"));
             ButtonGroup bg = new ButtonGroup();
@@ -59,13 +122,26 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
                 JRadioButton jrb = new JRadioButton(); 
                 p.add(jrb);
                 bg.add(jrb);
+                if(j == 3){
+                    bg.setSelected(jrb.getModel(), true);
+                }
+                surveyButtons[i * 7 + j] = jrb;
             }
+            surveyButtonGroups[i] = bg;
             p.add(new JLabel("Disagree"));
-         
+            
             if(i == 0){
-                getContentPane().add(new JLabel("I felt...."));
+                JPanel p2 = new JPanel();
+                p2.setLayout(new BoxLayout(p2, BoxLayout.X_AXIS));
+                p2.add(new JLabel("<html>In the preceding 5 minutes of discussion, <b>I</b> felt...</html>"));
+                p2.add(Box.createHorizontalGlue());
+                getContentPane().add(p2);
             } else if(i == 5){
-                getContentPane().add(new JLabel("My partner felt..."));
+                JPanel p2 = new JPanel();
+                p2.setLayout(new BoxLayout(p2, BoxLayout.X_AXIS));
+                p2.add(new JLabel("<html>In the preceding 5 minutes of discussion, I beleive <b>my partner</b> was...</html>"));
+                p2.add(Box.createHorizontalGlue());
+                getContentPane().add(p2);
             }
             getContentPane().add(p);
         }
@@ -80,16 +156,29 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         submitButton.setAlignmentX(LEFT_ALIGNMENT);
         getContentPane().add(submitButton);
         size = getContentPane().getSize();
+        getContentPane().setPreferredSize(size);
         this.pack();
-    }
-
-    void submitButtonActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        getContentPane().removeAll();
-        
-        setInstructionContent();
         
         getContentPane().revalidate();
         getContentPane().repaint();
+    }
+
+    void submitButtonActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        String results = "[SURVEYRESULT:" + cts.getUsername() + "]{";
+        for(int i = 0; i < 7 * 10; i++){
+             if(surveyButtons[i].isSelected()){
+                 results += Integer.toString(i % 7 + 1) + ",";
+             }
+        }
+        results = results.substring(0, results.length() - 1);
+        results += "}";
+        if(cts != null){
+            cts.sendSurveySubmitted(results);
+        } else{
+            System.out.println("No cts: " + results);
+        }
+        
+        setInstructionContent();
     }
     
     /**

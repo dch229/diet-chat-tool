@@ -1,0 +1,3 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+server|server|abcDATA|1425348177975|0|0|0|0|server|[SURVEYRESULT:aglkagja;]{4,4,4,4,4,4,4,4,4,4}||OK|0|0|0|0|0|||||
+server|server|abcDATA|1425348180419|2444|2444|0|0|server|[SURVEYRESULT:agja;lghkj]{4,4,4,4,4,4,4,4,4,4}||OK|0|0|0|0|0|||||
