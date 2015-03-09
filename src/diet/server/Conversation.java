@@ -31,6 +31,7 @@ import java.util.Vector;
 import lib.bsh.Interpreter;
 import client.MazeGameController2WAY;
 import client.MazeGameController3WAY;
+import cornell.mchci.MessageReadyForTimer;
 import cornell.mchci.MessageSurveySubmitted;
 import diet.client.StyledDocumentStyleSettings;
 import diet.debug.Debug;
@@ -41,6 +42,7 @@ import diet.server.CbyC.DocChange;
 import diet.server.CbyC.DocInsert;
 import diet.server.CbyC.DocRemove;
 import diet.server.ConversationController.CCBeanShell;
+import diet.server.ConversationController.CCCUSTOM1;
 import diet.server.ConversationController.DefaultConversationController;
 import diet.server.ConversationController.ui.CustomDialog;
 import diet.server.conversationhistory.ConversationHistory;
@@ -583,6 +585,11 @@ public class Conversation extends Thread{
                 else if(m instanceof MessageSurveySubmitted){
                     MessageSurveySubmitted mss = (MessageSurveySubmitted)m;
                     this.saveDataToConversationHistory("abc", mss.getSurveyResults());
+                }
+                else if(m instanceof MessageReadyForTimer){
+                    if(cC instanceof CCCUSTOM1){
+                        ((CCCUSTOM1)cC).beginTimer();
+                    }
                 }
                 
                 

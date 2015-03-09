@@ -1,0 +1,5 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+adgkjla;gja|gadjkgjal;g|Default|1425867051764|0|712|712|8|gadjkgjal;g|agdgag|, adlghka;lgja|OK|0|0|0|0|0|||||
+adgkjla;gja|gadjkgjal;g|NOTRELAYED.|1425867051764|0|712|712|8|gadjkgjal;g|agdgag||OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1425867051798|729|729|0|0|gadjkgjal;g|agdgag|, adlghka;lgja|OK|0|0|0|0|0|||||
+server|server|ARTIFICIALTURN|1425867051799|730|730|0|0|gadjkgjal;g|agdgag|, adlghka;lgja|OK|0|0|0|0|0|||||

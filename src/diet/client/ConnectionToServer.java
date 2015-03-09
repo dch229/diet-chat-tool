@@ -254,6 +254,7 @@ public class ConnectionToServer extends Thread {
             try{
                  
                        jcfsw = new JChatFrameMultipleWindowsWithSendButtonWidthByHeight(cEventHandler,mcspwbyh.getNoOfWindows(),mcspwbyh.getMainWindowWidth(),mcspwbyh.getMainWindowHeight(),mcspwbyh.getAlignmentIsVertical(),mcspwbyh.getParticipantHasStatusWindow(),mcspwbyh.getParticipantsTextWindow(),mcspwbyh.getTextEntryWidth(),mcspwbyh.getTextEntryHeight(), mcspwbyh.getMaxCharLength(), mcspwbyh.getWtsdsd());
+                        jcfsw.getSurveyBox().setConnectionToServer(this);
                        final JChatFrameMultipleWindowsWithSendButtonWidthByHeight jcfsw2 = jcfsw;
                         SwingUtilities.invokeLater(new Runnable(){public void run(){
                      try{    

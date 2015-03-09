@@ -1,0 +1,5 @@
+lkafjga;lg|adglka;gf|ChatTextFromClient|SSun Mar 08 22:58:30 EDT 2015T|1425869910158|15|1425869910158||
+lkafjga;lg|adglka;gf|ChatTextToClient|SSun Mar 08 22:58:30 EDT 2015T|1425869910158|| |
+server|adglka;gf|ChatTextToClient|SSun Mar 08 22:58:30 EDT 2015T|1425869910158|| |
+server|server|Message|SSun Mar 08 22:58:32 EDT 2015T|1425869912055|| |
+server|server|Message|SSun Mar 08 22:58:33 EDT 2015T|1425869913621|| |

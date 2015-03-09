@@ -6,8 +6,10 @@
 package cornell.mchci;
 
 import diet.client.ConnectionToServer;
+import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Font;
+import java.awt.Toolkit;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.ButtonGroup;
@@ -16,6 +18,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.UIManager;
+import javax.swing.border.Border;
+import javax.swing.border.EmptyBorder;
 import javax.swing.plaf.FontUIResource;
 
 /**
@@ -26,8 +30,24 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
 
     ButtonGroup[] surveyButtonGroups;
     JRadioButton[] surveyButtons;
-    String[] words = new String[]{  "Engaged", "Tense", "Friendly", "Talkative", "Offended",
-    "Engaged", "Tense", "Friendly", "Talkative", "Offended"};
+    String[] englishQuestions = new String[]{ "<html>In the preceding 5 minutes of discussion, <b>I</b> was...</html>",
+        "<html>In the preceding 5 minutes of discussion, I believe <b>my partner</b> was...</html>",
+        "Strongly disagree",
+        "Strongly agree"
+    };
+    String[] englishWords = new String[]{  "Involved", "Tense", "Friendly", "Talkative", "Offended",
+        "Involved", "Tense", "Friendly", "Talkative", "Offended"};
+    
+    String[] chineseQuestions = new String[]{ "<html>在此前5分钟的对话中, 我感到<b>我自己</b>是...</html>",
+        "<html>在此前5分钟的对话中, 我认为<b>我的同伴</b>是...</html>",
+        "毫不",
+        "非常"
+    };
+    String[] chineseWords = new String[]{  "投入的", "紧张的", "友好的", "健谈的", "被冒犯的",
+        "投入的", "紧张的", "友好的", "健谈的", "被冒犯的",};
+    
+    String[] questions;
+    String[] words;
     
     Dimension size;
     // TODO: find a better way to do this
@@ -43,20 +63,63 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         initComponents();
         
         //TODO: setSurveyContent is used to get the size. May want to fix this.
-        setSurveyContent();
-        setInstructionContent();
+        //setSurveyContent();
+        setChoiceContent();
     }
     
     public void openSurvey(){
         setSurveyContent();
     }
     
+    void setChoiceContent(){
+        getContentPane().removeAll();
+        
+        UIManager.put("Label.font", new FontUIResource("Dialog", Font.PLAIN, 18));
+        //getContentPane().setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
+        getContentPane().setLayout(new BorderLayout());
+        JPanel contentPanel = new JPanel();
+        contentPanel.setLayout(new BoxLayout(contentPanel, BoxLayout.Y_AXIS));
+        contentPanel.setBorder(new EmptyBorder(32, 32, 32, 32));
+        
+        JButton b1 = new JButton("English");
+        b1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                englishButtonActionPerformed(evt);
+            }
+        });
+        JButton b2 = new JButton("Chinese");
+         b2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                chineseButtonActionPerformed(evt);
+            }
+        });
+        
+        contentPanel.add(b1);
+        contentPanel.add(b2);
+         getContentPane().add(contentPanel);
+     
+        
+        Toolkit tk = Toolkit.getDefaultToolkit();
+        getContentPane().setPreferredSize(new Dimension((int)(tk.getScreenSize().width * 0.5), tk.getScreenSize().height));
+        this.pack();
+        
+        getContentPane().revalidate();
+        getContentPane().repaint();
+    }
+    
     void setInstructionContent(){
         getContentPane().removeAll();
         
         // TODO: this is bad. not sure why all font is bold in panel
-        UIManager.put("Label.font", new FontUIResource("Dialog", Font.PLAIN, 12));
-        getContentPane().setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
+        UIManager.put("Label.font", new FontUIResource("Dialog", Font.PLAIN, 18));
+        
+        getContentPane().setLayout(new BorderLayout());
+                
+//getContentPane().setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
+        
+        JPanel contentPanel = new JPanel();
+        contentPanel.setLayout(new BoxLayout(contentPanel, BoxLayout.Y_AXIS));
+        contentPanel.setBorder(new EmptyBorder(32, 32, 32, 32));
         
         String[] instructionContent = new String[]{
             "Please start from <b>Dr. Wang</b>",
@@ -87,14 +150,16 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
             String s = instructionContent[i];
             if(i % 2 == 0 && i != 0){
                 s = "<html><b>" + s + "</b></html>";
+                contentPanel.add(Box.createVerticalStrut(24));
             } else {
                 s = "<html><wide>" + s + "</wide></html>";
             }
             JLabel label = new JLabel(s);
             
-            getContentPane().add(label);
+            contentPanel.add(label);
         }
         
+        getContentPane().add(contentPanel);
         getContentPane().revalidate();
         getContentPane().repaint();
     }
@@ -102,8 +167,12 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
     void setSurveyContent(){
         getContentPane().removeAll();
         
-        UIManager.put("Label.font", new FontUIResource("Dialog", Font.PLAIN, 12));
-        getContentPane().setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
+        UIManager.put("Label.font", new FontUIResource("Dialog", Font.PLAIN, 18));
+        //getContentPane().setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
+        getContentPane().setLayout(new BorderLayout());
+        JPanel contentPanel = new JPanel();
+        contentPanel.setLayout(new BoxLayout(contentPanel, BoxLayout.Y_AXIS));
+        contentPanel.setBorder(new EmptyBorder(32, 32, 32, 32));
         surveyButtonGroups = new ButtonGroup[10];
         surveyButtons = new JRadioButton[10 * 7];
         for(int i = 0; i < 10; i++){
@@ -116,7 +185,7 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
             p.add(Box.createHorizontalGlue());
 //p.add(Box.createHorizontalStrut(24));
             
-            p.add(new JLabel("Agree"));
+            p.add(new JLabel(questions[2]));
             ButtonGroup bg = new ButtonGroup();
             for(int j = 0; j < 7; j++){
                 JRadioButton jrb = new JRadioButton(); 
@@ -128,22 +197,24 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
                 surveyButtons[i * 7 + j] = jrb;
             }
             surveyButtonGroups[i] = bg;
-            p.add(new JLabel("Disagree"));
+            p.add(new JLabel(questions[3]));
             
             if(i == 0){
                 JPanel p2 = new JPanel();
                 p2.setLayout(new BoxLayout(p2, BoxLayout.X_AXIS));
-                p2.add(new JLabel("<html>In the preceding 5 minutes of discussion, <b>I</b> felt...</html>"));
+                p2.add(new JLabel(questions[0]));
                 p2.add(Box.createHorizontalGlue());
-                getContentPane().add(p2);
+                contentPanel.add(p2);
             } else if(i == 5){
+                contentPanel.add(Box.createVerticalStrut(100));
+                
                 JPanel p2 = new JPanel();
                 p2.setLayout(new BoxLayout(p2, BoxLayout.X_AXIS));
-                p2.add(new JLabel("<html>In the preceding 5 minutes of discussion, I beleive <b>my partner</b> was...</html>"));
+                p2.add(new JLabel(questions[1]));
                 p2.add(Box.createHorizontalGlue());
-                getContentPane().add(p2);
+                contentPanel.add(p2);
             }
-            getContentPane().add(p);
+            contentPanel.add(p);
         }
         
         JButton submitButton = new JButton("Submit");
@@ -154,9 +225,13 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         });
         
         submitButton.setAlignmentX(LEFT_ALIGNMENT);
-        getContentPane().add(submitButton);
-        size = getContentPane().getSize();
-        getContentPane().setPreferredSize(size);
+        contentPanel.add(submitButton);
+        
+        getContentPane().add(contentPanel);
+        
+        //size = getContentPane().getSize();
+        Toolkit tk = Toolkit.getDefaultToolkit();
+        getContentPane().setPreferredSize(new Dimension((int)(tk.getScreenSize().width * 0.5), tk.getScreenSize().height));
         this.pack();
         
         getContentPane().revalidate();
@@ -179,6 +254,26 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         }
         
         setInstructionContent();
+    }
+    
+    void englishButtonActionPerformed(java.awt.event.ActionEvent evt) {  
+        questions = englishQuestions;
+        words = englishWords;
+        setInstructionContent();
+        
+        if(cts != null){
+            cts.sendMessage(new MessageReadyForTimer("", ""));
+        }
+    }
+    
+    void chineseButtonActionPerformed(java.awt.event.ActionEvent evt) {  
+        questions = chineseQuestions;
+        words = chineseWords;
+        setInstructionContent();
+        
+        if(cts != null){
+            cts.sendMessage(new MessageReadyForTimer("", ""));
+        }
     }
     
     /**
