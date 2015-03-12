@@ -1,0 +1,5 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+server|15:26:10|0|server|[SURVEYRESULT:awefoi]{4,4,4,4,4,4,4,4,6,4}|OK
+server|15:26:15|0|server|[SURVEYRESULT:aweoifn]{4,4,4,4,4,4,4,4,4,4}|OK
+server|15:26:21|0|server|[SURVEYRESULT:aweoifn]{4,4,4,4,4,4,4,4,4,4}|OK
+server|15:26:22|0|server|[SURVEYRESULT:awefoi]{4,4,4,4,4,4,4,4,4,4}|OK

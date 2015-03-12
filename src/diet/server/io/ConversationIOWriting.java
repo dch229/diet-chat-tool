@@ -32,6 +32,9 @@ import java.io.OutputStreamWriter;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CodingErrorAction;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 /**
  *
  * @author user
@@ -328,6 +331,178 @@ public class ConversationIOWriting {
     	}
     }
     
+//    public void saveTurn(Turn t){
+//
+//      String sendersUsername = "Uninitialized";
+//      String participantID = "Unititialized";
+//      String apparentSenderUsername = "Uninitialized";
+//
+//
+//     if(t instanceof DataToBeSaved){
+//         DataToBeSaved dtbs = (DataToBeSaved)t;
+//         sendersUsername = dtbs.getSenderName();
+//         apparentSenderUsername = dtbs.getApparentSenderName();
+//         participantID = dtbs.getSenderID();
+//     }
+//     else{
+//        sendersUsername = t.getSender().getUsername();
+//        Participant sender = c.getParticipants().findParticipantWithUsername(sendersUsername);
+//        participantID = "Could not find "+sendersUsername;
+//        apparentSenderUsername = t.getApparentSender().getUsername();
+//        if(sendersUsername.equalsIgnoreCase("server")){
+//            participantID="server";
+//        }
+//        if(sender!=null){
+//            participantID=sender.getParticipantID();
+//        }
+//     }
+//    
+//        String line = "";
+//        line =  participantID +
+//               "|" + sendersUsername +
+//                "|" + t.getType()+
+//               "|" + t.getCreationTimeOnClient()+
+//               "|" + t.getTypingOnsetNormalized()+
+//               "|" + t.getTypingReturnPressedNormalized()+
+//               "|" + (t.getTypingReturnPressedNormalized()-t.getTypingOnsetNormalized());       
+//
+//        long typingtime = t.getTypingReturnPressedNormalized()-t.getTypingOnsetNormalized();
+//        if(typingtime<=0){
+//            line = line + "|"+0;
+//        }
+//        else{
+//            line = line+ "|"+ (((long)t.getTextString().length())*1000/typingtime);
+//        }    
+//        line = line+"|" +apparentSenderUsername +
+//               "|"+ t.getTextString().replace("\n", "~");
+//    
+//    
+//        Vector v = t.getRecipients();
+//        String names ="";
+//        for(int i=0;i<v.size();i++){
+//            Conversant c = (Conversant)v.elementAt(i);
+//            names = names+", "+c.getUsername();
+//        }
+//        
+//        line = line+ "|"+names;
+//        
+//    
+//    if (t.getTypingWasBlockedDuringTyping()){
+//        line = line + "|" + "BLOCKED";
+//    }    
+//    else{
+//        line = line + "|"+"OK";
+//     }
+//    
+//    line = line + "|" + t.getKeypressDeletes() +
+//           "|" + t.getDocDeletes() +
+//           "|" + t.getDocInsertsBeforeTerminal() +
+//           "|" + t.getDocDelsScore()+
+//           "|" + t.getDocInsScore();
+//    String returnText="";
+//    Vector v2 = t.getWordsAsLexicalEntries();
+//    for(int i=0;i<v2.size();i++){
+//            LexiconEntry lxe= (LexiconEntry)v2.elementAt(i);
+//            returnText = returnText+lxe.getWord()+" ("+lxe.getPartOfSpeech()+") ";
+//    }
+//    line = line +"|"+returnText;
+//    //----Now got to add the information about the preceding turn
+//    String[] priorTurnByOther = t.getPriorTurnByOtherAsString();
+//    
+//    
+//    
+//    //priorTurnByOther[0]="(((((((((("+priorTurnByOther[0]+"))))))))))";
+//    //priorTurnByOther[1]="(((((((((("+priorTurnByOther[1]+"))))))))))";
+//    //priorTurnByOther[2]="(((((((((("+priorTurnByOther[2]+"))))))))))";
+//    
+//    
+//        try{
+//            
+//           line = line +  "|"+priorTurnByOther[0] + "|"+priorTurnByOther[1] +"|"+priorTurnByOther[2];
+//           
+//        }catch (Exception e){
+//            line = line + "|ERROR" + "|ERROR" +"|ERROR";
+//            e.printStackTrace();
+//            //System.exit(-4);
+//        }
+//    
+//    
+//    //Now got to add the information about the preceding turn.
+//    line = line+t.getIOAdditionalValues();
+//   
+//    //line = "|"+line+t.getIOAdditionalValues()+"TEXT"+"|" +" ";
+//    
+//    //line = "| "+"| "+"| "+"| "+"| "+"|A "+"|  |";
+//        
+//       
+//    try{
+//      this.turnsAsTextOut.write(line+"\n");
+//      this.turnsAsTextOut.flush();
+//      this.turnsSerializedOut.writeObject(t);
+//      this.turnsSerializedOut.flush();
+//      
+//     
+//      this.enc_turns_BWOut.append(line);
+//      this.enc_turns_BWOut.newLine();
+//      this.enc_turns_BWOut.flush();
+//      
+//      
+//     turnsWritesSinceLastReset++;
+//      if(turnsWritesSinceLastReset>this.turnsWritingResetThreshold){  
+//         this.turnsSerializedOut.reset();
+//         turnsWritesSinceLastReset =0;
+//         
+//      }
+//      
+//    }catch(Exception e){
+//        reestablishFileSystem();
+//        System.err.println("Error saving turn" +e.getMessage());
+//    }
+//    
+//    }
+//    
+//    
+//    public void closeAllFiles(){
+//        try{
+//          msgsSerializedOut.flush();
+//        }catch (Exception e){}
+//        try{
+//          msgsAsTextOut.flush();
+//        }  catch (Exception e){}
+//        try{
+//          turnsSerializedOut.flush();
+//        }catch (Exception e){}
+//        try{
+//          turnsAsTextOut.flush();
+//        }catch (Exception e){}
+//        try{ 
+//          msgsSerializedOut.close();
+//        }  catch (Exception e){}
+//        try{
+//         msgsAsTextOut.close();
+//        } catch (Exception e){}
+//        try{ 
+//         turnsSerializedOut.close();
+//        } catch (Exception e){} 
+//        try{ 
+//         turnsAsTextOut.close();
+//        } catch (Exception e){}
+//        try{
+//            pwerrorfos.close();
+//        } catch (Exception e){}
+//        try{
+//            this.enc_turns_BWOut.close();
+//        }catch (Exception e){
+//            
+//        }
+//        try{
+//        	for(PrintWriter writer: windowLogFiles.values())
+//        	{
+//        		writer.close();
+//        	}
+//        }catch (Exception e){e.printStackTrace();}
+//    }
+    
     public void saveTurn(Turn t){
 
       String sendersUsername = "Uninitialized";
@@ -355,14 +530,13 @@ public class ConversationIOWriting {
      }
     
         String line = "";
-        line =  participantID +
-               "|" + sendersUsername +
-                "|" + t.getType()+
-               "|" + t.getCreationTimeOnClient()+
-               "|" + t.getTypingOnsetNormalized()+
-               "|" + t.getTypingReturnPressedNormalized()+
-               "|" + (t.getTypingReturnPressedNormalized()-t.getTypingOnsetNormalized());       
-
+        line =  sendersUsername;
+                      
+        DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
+        Date date = new Date();
+        
+        line = line + "|" + dateFormat.format(date);
+        
         long typingtime = t.getTypingReturnPressedNormalized()-t.getTypingOnsetNormalized();
         if(typingtime<=0){
             line = line + "|"+0;
@@ -373,15 +547,6 @@ public class ConversationIOWriting {
         line = line+"|" +apparentSenderUsername +
                "|"+ t.getTextString().replace("\n", "~");
     
-    
-        Vector v = t.getRecipients();
-        String names ="";
-        for(int i=0;i<v.size();i++){
-            Conversant c = (Conversant)v.elementAt(i);
-            names = names+", "+c.getUsername();
-        }
-        
-        line = line+ "|"+names;
         
     
     if (t.getTypingWasBlockedDuringTyping()){
@@ -391,47 +556,7 @@ public class ConversationIOWriting {
         line = line + "|"+"OK";
      }
     
-    line = line + "|" + t.getKeypressDeletes() +
-           "|" + t.getDocDeletes() +
-           "|" + t.getDocInsertsBeforeTerminal() +
-           "|" + t.getDocDelsScore()+
-           "|" + t.getDocInsScore();
-    String returnText="";
-    Vector v2 = t.getWordsAsLexicalEntries();
-    for(int i=0;i<v2.size();i++){
-            LexiconEntry lxe= (LexiconEntry)v2.elementAt(i);
-            returnText = returnText+lxe.getWord()+" ("+lxe.getPartOfSpeech()+") ";
-    }
-    line = line +"|"+returnText;
-    //----Now got to add the information about the preceding turn
-    String[] priorTurnByOther = t.getPriorTurnByOtherAsString();
     
-    
-    
-    //priorTurnByOther[0]="(((((((((("+priorTurnByOther[0]+"))))))))))";
-    //priorTurnByOther[1]="(((((((((("+priorTurnByOther[1]+"))))))))))";
-    //priorTurnByOther[2]="(((((((((("+priorTurnByOther[2]+"))))))))))";
-    
-    
-        try{
-            
-           line = line +  "|"+priorTurnByOther[0] + "|"+priorTurnByOther[1] +"|"+priorTurnByOther[2];
-           
-        }catch (Exception e){
-            line = line + "|ERROR" + "|ERROR" +"|ERROR";
-            e.printStackTrace();
-            //System.exit(-4);
-        }
-    
-    
-    //Now got to add the information about the preceding turn.
-    line = line+t.getIOAdditionalValues();
-   
-    //line = "|"+line+t.getIOAdditionalValues()+"TEXT"+"|" +" ";
-    
-    //line = "| "+"| "+"| "+"| "+"| "+"|A "+"|  |";
-        
-       
     try{
       this.turnsAsTextOut.write(line+"\n");
       this.turnsAsTextOut.flush();

@@ -1,0 +1,4 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+chinese|14:14:01|2|chinese|hi|OK
+chinese|14:14:01|2|chinese|hi|OK
+server|14:14:01|0|chinese|hi|OK

@@ -1,0 +1,3 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+server|15:56:27|0|server|[SURVEYRESULT:kvzsmd]{4,4,4,4,4,4,4,4,4,4}|OK
+server|15:56:36|0|server|[SURVEYRESULT:kvzsmd]{4,4,4,4,4,4,4,4,4,4}|OK

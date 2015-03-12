@@ -1,0 +1,2 @@
+ERROR IN CLIENT: oirawgh arwegihar
+Error message FROM CLIENT: ERRORDISPLAYINGNEWWEBPAGE

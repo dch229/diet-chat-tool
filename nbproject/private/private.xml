@@ -11,19 +11,24 @@
             <url>src/diet/server/Conversation.java</url>
             <bookmark id="0">
                 <name/>
-                <line>1396</line>
+                <line>1389</line>
                 <key/>
             </bookmark>
         </file>
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/diet/server/ConversationController/CCCUSTOM1.java</file>
-            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/cornell/mchci/SurveyBoxJFrame.java</file>
-            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/diet/client/WebpageAndImageDisplay.java</file>
-            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/diet/client/ConnectionToServer.java</file>
-            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/diet/client/JChatFrameMultipleWindowsWithSendButtonWidthByHeight.java</file>
-            <file>file:/C:/Users/gabeculbertson/Documents/Cornell_DiET/diet-chat-tool/src/cornell/mchci/MessageSurveySubmitted.java</file>
+            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/diet/client/WebpageAndImageDisplay.java</file>
+            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/cornell/mchci/TheSurveyFrame.java</file>
+            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/diet/server/io/ConversationIO.java</file>
+            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/diet/server/conversationhistory/ConversationHistory.java</file>
+            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/cornell/mchci/MessageDisplaySurvey.java</file>
+            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/cornell/mchci/MessageSurveySubmitted.java</file>
+            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/cornell/mchci/SurveyBoxJFrame.java</file>
+            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/diet/server/conversationhistory/turn/Turn.java</file>
+            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/diet/server/Conversation.java</file>
+            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/diet/server/ConversationController/CCCUSTOM1.java</file>
+            <file>file:/Users/dhau/Desktop/diet-chat-tool/src/diet/server/io/ConversationIOWriting.java</file>
         </group>
     </open-files>
 </project-private>

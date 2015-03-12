@@ -17,12 +17,15 @@ public class CCCUSTOM1 extends DefaultConversationController{
    Date dt;
    //SurveyJFrame sFrame;
    TheSurveyFrame sFrame;
-   int timerThreshholdS;
+   int timerThresholdS;
+   int firstTimerThresholdS;
+   boolean firstTime = true;
    boolean timerRunning = false;
    
    
    public CCCUSTOM1(){
-       timerThreshholdS = 20;
+       firstTimerThresholdS = 360;
+       timerThresholdS = 300;
     }
     public static boolean showcCONGUI(){
         return false;
@@ -38,13 +41,26 @@ public void processLoop(){
     if(timerRunning){
         Date newDate = new Date();
         long seconds = (newDate.getTime() - dt.getTime())/1000;
-        if(seconds > timerThreshholdS){
+        
+        if(firstTime){
+            if(seconds > firstTimerThresholdS){
             dt = new Date();
             Vector v = this.c.getParticipants().getAllParticipants();
             for(int i=0;i<v.size();i++){
                 Participant p = (Participant)v.elementAt(i);
                 this.c.getParticipants().displaySurvey(p, "survey" + p.getParticipantID(), "survey");
             }
+            }
+            firstTime = false;
+        } else{
+        if(seconds > timerThresholdS){
+            dt = new Date();
+            Vector v = this.c.getParticipants().getAllParticipants();
+            for(int i=0;i<v.size();i++){
+                Participant p = (Participant)v.elementAt(i);
+                this.c.getParticipants().displaySurvey(p, "survey" + p.getParticipantID(), "survey");
+            }
+        }
         }
     }
 }

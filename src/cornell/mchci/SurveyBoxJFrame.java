@@ -35,16 +35,16 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         "Strongly disagree",
         "Strongly agree"
     };
-    String[] englishWords = new String[]{  "Involved", "Tense", "Friendly", "Talkative", "Offended",
-        "Involved", "Tense", "Friendly", "Talkative", "Offended"};
+    String[] englishWords = new String[]{  "Involved", "Tense", "Friendly", "Talkative", "Frustrated","Offended",
+        "Involved", "Tense", "Friendly", "Talkative", "Frustrated", "Offended"};
     
     String[] chineseQuestions = new String[]{ "<html>在此前5分钟的对话中, 我感到<b>我自己</b>是...</html>",
         "<html>在此前5分钟的对话中, 我认为<b>我的同伴</b>是...</html>",
         "毫不",
         "非常"
     };
-    String[] chineseWords = new String[]{  "投入的", "紧张的", "友好的", "健谈的", "被冒犯的",
-        "投入的", "紧张的", "友好的", "健谈的", "被冒犯的",};
+    String[] chineseWords = new String[]{  "投入的", "紧张的", "友好的", "健谈的", "受挫的", "被冒犯的",
+        "投入的", "紧张的", "友好的", "健谈的", "受挫的", "被冒犯的"};
     
     String[] questions;
     String[] words;
@@ -123,7 +123,7 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         
         String[] instructionContent = new String[]{
             "Please start from <b>Dr. Wang</b>",
-            "and discuss the rank of each person on this list.",
+            "and discuss the rank of <b>each person</b> on this list.",
             "",
             "",
             "Dr. Wang",
@@ -149,13 +149,13 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         for(int i = 0; i < instructionContent.length; i++){
             String s = instructionContent[i];
             if(i % 2 == 0 && i != 0){
-                s = "<html><b>" + s + "</b></html>";
-                contentPanel.add(Box.createVerticalStrut(24));
+                s = "<html> <b>" + s + "</b></html>";
+                contentPanel.add(Box.createVerticalStrut(18));
             } else {
                 s = "<html><wide>" + s + "</wide></html>";
             }
             JLabel label = new JLabel(s);
-            
+            label.setFont(new Font(label.getFont().getName(), Font.PLAIN, 14));
             contentPanel.add(label);
         }
         
@@ -173,13 +173,13 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         JPanel contentPanel = new JPanel();
         contentPanel.setLayout(new BoxLayout(contentPanel, BoxLayout.Y_AXIS));
         contentPanel.setBorder(new EmptyBorder(32, 32, 32, 32));
-        surveyButtonGroups = new ButtonGroup[10];
-        surveyButtons = new JRadioButton[10 * 7];
-        for(int i = 0; i < 10; i++){
+        surveyButtonGroups = new ButtonGroup[12];
+        surveyButtons = new JRadioButton[12 * 7];
+        for(int i = 0; i < 12; i++){
             JPanel p = new JPanel();
             p.setLayout(new BoxLayout(p, BoxLayout.X_AXIS));
             JLabel wordLabel = new JLabel(words[i]);
-            wordLabel.setPreferredSize(new Dimension(100, 50));
+            wordLabel.setPreferredSize(new Dimension(100, 40));
             //wordLabel.setAlignmentX(LEFT_ALIGNMENT);
             p.add(wordLabel);
             p.add(Box.createHorizontalGlue());
@@ -194,6 +194,7 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
                 if(j == 3){
                     bg.setSelected(jrb.getModel(), true);
                 }
+                
                 surveyButtons[i * 7 + j] = jrb;
             }
             surveyButtonGroups[i] = bg;
@@ -205,7 +206,8 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
                 p2.add(new JLabel(questions[0]));
                 p2.add(Box.createHorizontalGlue());
                 contentPanel.add(p2);
-            } else if(i == 5){
+            } else if(i == 6){
+                //Add a divider between the two sections
                 contentPanel.add(Box.createVerticalStrut(100));
                 
                 JPanel p2 = new JPanel();

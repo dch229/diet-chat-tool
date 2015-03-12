@@ -1,0 +1,49 @@
+server|server|Message|SWed Mar 11 16:19:47 EDT 2015T|1426105188554|| |
+server|server|Message|SWed Mar 11 16:19:46 EDT 2015T|1426105188655|| |
+aipewhf|english|Keypressed|SWed Mar 11 16:19:53 EDT 2015T|1426105193820|| |
+aipewhf|english|WYSIWYGDocSyncFromClient|SWed Mar 11 16:19:53 EDT 2015T|1426105193823|| |
+aipewhf|english|Keypressed|SWed Mar 11 16:19:53 EDT 2015T|1426105193823|| |
+aipewhf|english|WYSIWYGDocSyncFromClient|SWed Mar 11 16:19:53 EDT 2015T|1426105193824|| |
+aipewhf|english|Keypressed|SWed Mar 11 16:19:53 EDT 2015T|1426105194057|| |
+aipewhf|english|WYSIWYGDocSyncFromClient|SWed Mar 11 16:19:53 EDT 2015T|1426105194058|| |
+aipewhf|english|ChatTextFromClient|SWed Mar 11 16:19:53 EDT 2015T|1426105194136|1426105193744|1426105194136|hi|
+aipewhf|english|ChatTextToClient|SWed Mar 11 16:19:54 EDT 2015T|1426105194158|| |
+server|english|ChatTextToClient|SWed Mar 11 16:19:54 EDT 2015T|1426105194193|| |
+chinese|chinese|Keypressed|SWed Mar 11 16:19:56 EDT 2015T|1426105197808|| |
+chinese|chinese|WYSIWYGDocSyncFromClient|SWed Mar 11 16:19:56 EDT 2015T|1426105197809|| |
+chinese|chinese|Keypressed|SWed Mar 11 16:19:56 EDT 2015T|1426105197916|| |
+chinese|chinese|WYSIWYGDocSyncFromClient|SWed Mar 11 16:19:56 EDT 2015T|1426105197917|| |
+chinese|chinese|Keypressed|SWed Mar 11 16:19:56 EDT 2015T|1426105198075|| |
+chinese|chinese|WYSIWYGDocSyncFromClient|SWed Mar 11 16:19:56 EDT 2015T|1426105198076|| |
+chinese|chinese|Keypressed|SWed Mar 11 16:19:57 EDT 2015T|1426105198676|| |
+chinese|chinese|WYSIWYGDocSyncFromClient|SWed Mar 11 16:19:57 EDT 2015T|1426105198677|| |
+chinese|chinese|ChatTextFromClient|SWed Mar 11 16:19:57 EDT 2015T|1426105198759|1426105197720|1426105198759|hii|
+chinese|chinese|ChatTextToClient|SWed Mar 11 16:19:58 EDT 2015T|1426105198759|| |
+server|chinese|ChatTextToClient|SWed Mar 11 16:19:58 EDT 2015T|1426105198760|| |
+chinese|chinese|Keypressed|SWed Mar 11 16:23:02 EDT 2015T|1426105384617|| |
+chinese|chinese|WYSIWYGDocSyncFromClient|SWed Mar 11 16:23:02 EDT 2015T|1426105384619|| |
+chinese|chinese|Keypressed|SWed Mar 11 16:23:03 EDT 2015T|1426105384774|| |
+chinese|chinese|WYSIWYGDocSyncFromClient|SWed Mar 11 16:23:03 EDT 2015T|1426105384774|| |
+chinese|chinese|Keypressed|SWed Mar 11 16:23:03 EDT 2015T|1426105384932|| |
+chinese|chinese|WYSIWYGDocSyncFromClient|SWed Mar 11 16:23:03 EDT 2015T|1426105384932|| |
+chinese|chinese|Keypressed|SWed Mar 11 16:23:03 EDT 2015T|1426105385088|| |
+chinese|chinese|WYSIWYGDocSyncFromClient|SWed Mar 11 16:23:03 EDT 2015T|1426105385089|| |
+chinese|chinese|Keypressed|SWed Mar 11 16:23:04 EDT 2015T|1426105385903|| |
+chinese|chinese|WYSIWYGDocSyncFromClient|SWed Mar 11 16:23:04 EDT 2015T|1426105385904|| |
+chinese|chinese|ChatTextFromClient|SWed Mar 11 16:23:04 EDT 2015T|1426105386010|1426105384627|1426105386010|mmmm|
+chinese|chinese|ChatTextToClient|SWed Mar 11 16:23:06 EDT 2015T|1426105386010|| |
+server|chinese|ChatTextToClient|SWed Mar 11 16:23:06 EDT 2015T|1426105386011|| |
+aipewhf|english|Keypressed|SWed Mar 11 16:23:13 EDT 2015T|1426105393781|| |
+aipewhf|english|Keypressed|SWed Mar 11 16:23:13 EDT 2015T|1426105393781|| |
+aipewhf|english|Keypressed|SWed Mar 11 16:23:13 EDT 2015T|1426105394216|| |
+aipewhf|english|WYSIWYGDocSyncFromClient|SWed Mar 11 16:23:13 EDT 2015T|1426105394217|| |
+aipewhf|english|Keypressed|SWed Mar 11 16:23:13 EDT 2015T|1426105394374|| |
+aipewhf|english|WYSIWYGDocSyncFromClient|SWed Mar 11 16:23:13 EDT 2015T|1426105394374|| |
+aipewhf|english|Keypressed|SWed Mar 11 16:23:13 EDT 2015T|1426105394557|| |
+aipewhf|english|Keypressed|SWed Mar 11 16:23:14 EDT 2015T|1426105394693|| |
+aipewhf|english|WYSIWYGDocSyncFromClient|SWed Mar 11 16:23:14 EDT 2015T|1426105394694|| |
+aipewhf|english|ChatTextFromClient|SWed Mar 11 16:23:14 EDT 2015T|1426105394779|1426105393786|1426105394779|^^|
+aipewhf|english|ChatTextToClient|SWed Mar 11 16:23:14 EDT 2015T|1426105394780|| |
+server|english|ChatTextToClient|SWed Mar 11 16:23:14 EDT 2015T|1426105394782|| |
+server|server|Message|SWed Mar 11 16:24:59 EDT 2015T|1426105500605|| |
+server|server|Message|SWed Mar 11 16:25:01 EDT 2015T|1426105503324|| |

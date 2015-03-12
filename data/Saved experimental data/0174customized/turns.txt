@@ -1,0 +1,23 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+english|1426092270749|Wed Mar 11 12:44:30 EDT 2015|7|english|what|OK
+english|1426092270749|Wed Mar 11 12:44:30 EDT 2015|7|english|what|OK
+server|1426092270784|Wed Mar 11 12:44:30 EDT 2015|0|english|what|OK
+server|1426092270784|Wed Mar 11 12:44:30 EDT 2015|0|english|what|OK
+heythere|1426092277144|Wed Mar 11 12:44:37 EDT 2015|6|heythere|why the text so big|OK
+heythere|1426092277144|Wed Mar 11 12:44:37 EDT 2015|6|heythere|why the text so big|OK
+server|1426092277146|Wed Mar 11 12:44:37 EDT 2015|0|heythere|why the text so big|OK
+server|1426092277146|Wed Mar 11 12:44:37 EDT 2015|0|heythere|why the text so big|OK
+english|1426092280168|Wed Mar 11 12:44:40 EDT 2015|3|english|ummm|OK
+english|1426092280168|Wed Mar 11 12:44:40 EDT 2015|3|english|ummm|OK
+server|1426092280170|Wed Mar 11 12:44:40 EDT 2015|0|english|ummm|OK
+server|1426092280170|Wed Mar 11 12:44:40 EDT 2015|0|english|ummm|OK
+heythere|1426092283375|Wed Mar 11 12:44:43 EDT 2015|6|heythere|well then|OK
+heythere|1426092283375|Wed Mar 11 12:44:43 EDT 2015|6|heythere|well then|OK
+server|1426092283383|Wed Mar 11 12:44:43 EDT 2015|0|heythere|well then|OK
+server|1426092283383|Wed Mar 11 12:44:43 EDT 2015|0|heythere|well then|OK
+heythere|1426092286367|Wed Mar 11 12:44:46 EDT 2015|1|heythere|idk|OK
+heythere|1426092286367|Wed Mar 11 12:44:46 EDT 2015|1|heythere|idk|OK
+server|1426092286370|Wed Mar 11 12:44:46 EDT 2015|0|heythere|idk|OK
+server|1426092286371|Wed Mar 11 12:44:46 EDT 2015|0|heythere|idk|OK
+server|1426092288301|Wed Mar 11 12:44:48 EDT 2015|0|server|[SURVEYRESULT:heythere]{4,4,4,4,4,4,4,4,4,4}|OK
+server|1426092291319|Wed Mar 11 12:44:51 EDT 2015|0|server|[SURVEYRESULT:english]{4,4,4,4,4,4,4,4,4,4}|OK
