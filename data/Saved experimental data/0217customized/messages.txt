@@ -1,0 +1,18 @@
+kjlkjl|jkljl|ChatTextFromClient|SMon Mar 23 12:01:08 EDT 2015T|1427126468652|6|1427126468652||
+kjlkjl|jkljl|ChatTextToClient|SMon Mar 23 12:01:08 EDT 2015T|1427126468681|| |
+server|jkljl|ChatTextToClient|SMon Mar 23 12:01:08 EDT 2015T|1427126468797|| |
+kjlkjl|jkljl|Keypressed|SMon Mar 23 12:01:18 EDT 2015T|1427126478710|| |
+kjlkjl|jkljl|WYSIWYGDocSyncFromClient|SMon Mar 23 12:01:18 EDT 2015T|1427126478712|| |
+kjlkjl|jkljl|Keypressed|SMon Mar 23 12:01:18 EDT 2015T|1427126478713|| |
+kjlkjl|jkljl|WYSIWYGDocSyncFromClient|SMon Mar 23 12:01:18 EDT 2015T|1427126478713|| |
+kjlkjl|jkljl|Keypressed|SMon Mar 23 12:01:18 EDT 2015T|1427126478804|| |
+kjlkjl|jkljl|WYSIWYGDocSyncFromClient|SMon Mar 23 12:01:18 EDT 2015T|1427126478805|| |
+kjlkjl|jkljl|Keypressed|SMon Mar 23 12:01:18 EDT 2015T|1427126478956|| |
+kjlkjl|jkljl|WYSIWYGDocSyncFromClient|SMon Mar 23 12:01:18 EDT 2015T|1427126478956|| |
+kjlkjl|jkljl|Keypressed|SMon Mar 23 12:01:19 EDT 2015T|1427126479212|| |
+kjlkjl|jkljl|WYSIWYGDocSyncFromClient|SMon Mar 23 12:01:19 EDT 2015T|1427126479212|| |
+kjlkjl|jkljl|ChatTextFromClient|SMon Mar 23 12:01:19 EDT 2015T|1427126479300|1427126478677|1427126479300|kljl|
+kjlkjl|jkljl|ChatTextToClient|SMon Mar 23 12:01:19 EDT 2015T|1427126479300|| |
+server|jkljl|ChatTextToClient|SMon Mar 23 12:01:19 EDT 2015T|1427126479300|| |
+server|server|Message|SMon Mar 23 12:01:22 EDT 2015T|1427126482459|| |
+server|server|Message|SMon Mar 23 12:01:24 EDT 2015T|1427126484526|| |

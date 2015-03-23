@@ -1,0 +1,9 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+jkljl|12:01:08|0|jkljl||OK
+jkljl|12:01:08|0|jkljl||OK
+server|12:01:08|0|jkljl||OK
+server|12:01:08|0|jkljl||OK
+jkljl|12:01:19|6|jkljl|kljl|OK
+jkljl|12:01:19|6|jkljl|kljl|OK
+server|12:01:19|0|jkljl|kljl|OK
+server|12:01:19|0|jkljl|kljl|OK

@@ -1,0 +1,6 @@
+djfldajfd|dfadg;ka|ChatTextFromClient|SMon Mar 23 12:07:30 EDT 2015T|1427126850649|3|1427126850649||
+djfldajfd|dfadg;ka|ChatTextToClient|SMon Mar 23 12:07:30 EDT 2015T|1427126850651|| |
+server|dfadg;ka|ChatTextToClient|SMon Mar 23 12:07:30 EDT 2015T|1427126850660|| |
+server|server|Message|SMon Mar 23 12:07:32 EDT 2015T|1427126852250|| |
+server|server|Message|SMon Mar 23 12:07:33 EDT 2015T|1427126853488|| |
+server|server|Message|SMon Mar 23 12:07:51 EDT 2015T|1427126871376|| |

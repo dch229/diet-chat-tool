@@ -52,8 +52,11 @@ public class JChatFrameMultipleWindowsWithSendButtonWidthByHeight extends JChatF
         return surveyBox;
     }
     
+    // TODO: this is not a good place for this
     public void setTextFieldVisible(boolean visible){
         jTextEntryPane.setVisible(visible);
+        JTextPane jtp = (JTextPane) jccw.jTextPanes.elementAt(jccw.windowOfParticipant);
+        jtp.setVisible(visible);
     }
 
     //JButton jb = new JButton();
@@ -119,7 +122,7 @@ public class JChatFrameMultipleWindowsWithSendButtonWidthByHeight extends JChatF
             jTextEntryPane.getCaret().setVisible(true);
             jTextEntryPane.setCaretColor(Color.BLACK);//styles.getCaretColor());
             jTextEntryPane.setForeground(Color.BLACK);
-            jTextEntryPane.setEnabled(false);
+            //jTextEntryPane.setEnabled(false);
 
             jTextEntryPane.setEditorKit(new WrapEditorKit());
 

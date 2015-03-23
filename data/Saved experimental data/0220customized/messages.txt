@@ -1,0 +1,7 @@
+akdjfldjaf|falfjda;lfd|ChatTextFromClient|SMon Mar 23 12:09:37 EDT 2015T|1427126977739|3|1427126977739||
+akdjfldjaf|falfjda;lfd|ChatTextToClient|SMon Mar 23 12:09:37 EDT 2015T|1427126977741|| |
+server|falfjda;lfd|ChatTextToClient|SMon Mar 23 12:09:37 EDT 2015T|1427126977749|| |
+server|server|Message|SMon Mar 23 12:09:39 EDT 2015T|1427126979170|| |
+server|server|Message|SMon Mar 23 12:09:40 EDT 2015T|1427126980133|| |
+server|server|Message|SMon Mar 23 12:09:53 EDT 2015T|1427126993627|| |
+server|server|Message|SMon Mar 23 12:09:57 EDT 2015T|1427126997452|| |

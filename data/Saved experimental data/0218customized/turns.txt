@@ -1,0 +1,6 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+fadjkfglkdjg|12:03:54|0|fadjkfglkdjg||OK
+fadjkfglkdjg|12:03:54|0|fadjkfglkdjg||OK
+server|12:03:54|0|fadjkfglkdjg||OK
+server|12:03:54|0|fadjkfglkdjg||OK
+server|12:04:12|0|server|[SURVEYRESULT:fadjkfglkdjg]{4,4,4,4,4,4,4,4,4,4}|OK
