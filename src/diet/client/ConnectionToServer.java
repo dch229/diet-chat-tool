@@ -60,7 +60,10 @@ public class ConnectionToServer extends Thread {
     int counter =0;
     JChatFrame jf;
     
-    
+    // TODO: not sure if we want a public reference to this
+    public JChatFrameMultipleWindowsWithSendButtonWidthByHeight getChatFrame(){
+        return jcfsw;
+    }
     
     //MessageChatTextToClient mctImmediatePriorByOther = null;
     
@@ -548,6 +551,7 @@ public class ConnectionToServer extends Thread {
               MessageDisplaySurvey mdw = (MessageDisplaySurvey)m;
               try{
                   //this.wiad.displaySurvey(mdw.getId(), mdw.getHeader());
+                  jcfsw.setTextFieldVisible(false);
                   jcfsw.getSurveyBox().setConnectionToServer(this);
                   jcfsw.getSurveyBox().openSurvey();
               }catch(Exception e){

@@ -256,6 +256,7 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         }
         
         setInstructionContent();
+        cts.getChatFrame().setTextFieldVisible(true);
     }
     
     void englishButtonActionPerformed(java.awt.event.ActionEvent evt) {  

@@ -24,8 +24,8 @@ public class CCCUSTOM1 extends DefaultConversationController{
    
    
    public CCCUSTOM1(){
-       firstTimerThresholdS = 360;
-       timerThresholdS = 300;
+       firstTimerThresholdS = 10;//360;
+       timerThresholdS = 8;//300;
     }
     public static boolean showcCONGUI(){
         return false;

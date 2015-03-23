@@ -1,0 +1,9 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+gadga|09:01:27|0|gadga||OK
+gadga|09:01:27|0|gadga||OK
+server|09:01:27|0|gadga||OK
+server|09:01:27|0|gadga||OK
+gadga|09:01:32|5|gadga|fdfdaf|OK
+gadga|09:01:32|5|gadga|fdfdaf|OK
+server|09:01:32|0|gadga|fdfdaf|OK
+server|09:01:32|0|gadga|fdfdaf|OK
