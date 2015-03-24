@@ -83,7 +83,8 @@ public class Conversation extends Thread{
 
     static Conversation statC;
 
-
+    // TODO: ew....
+    int submittedSurveys = 0;
 
     /**
      * Constructor for interventions programmed with BeanShell. Using this is not really recommended
@@ -585,6 +586,16 @@ public class Conversation extends Thread{
                 else if(m instanceof MessageSurveySubmitted){
                     MessageSurveySubmitted mss = (MessageSurveySubmitted)m;
                     this.saveDataToConversationHistory("abc", mss.getSurveyResults());
+                    
+                    submittedSurveys++;
+                    Vector v = this.getParticipants().getAllParticipants();
+                    if(submittedSurveys >= 2){
+                        for(int i=0;i < v.size();i++){
+                            Participant p = (Participant)v.elementAt(i);
+                            this.getParticipants().enableChatWindow(p, "survey" + p.getParticipantID(), "survey");
+                        }
+                        submittedSurveys = 0;
+                    }
                 }
                 else if(m instanceof MessageReadyForTimer){
                     if(cC instanceof CCCUSTOM1){

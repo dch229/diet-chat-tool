@@ -1,6 +1,7 @@
 package diet.server;
 
 import cornell.mchci.MessageDisplaySurvey;
+import cornell.mchci.MessageEnableChatWindow;
 import diet.debug.Debug;
 import java.util.Vector;
 
@@ -450,6 +451,11 @@ public class Participants {
         MessageDisplaySurvey mdnw = new MessageDisplaySurvey(id, header);
         this.sendMessageToParticipant(p, mdnw);
     }
+     
+     public void enableChatWindow(Participant p, String id, String header){
+         MessageEnableChatWindow mecw = new MessageEnableChatWindow(id, header);
+         this.sendMessageToParticipant(p, mecw);
+     }
 
      public synchronized void changeParticipants(Vector newList){
          if(newList.size()!=this.participants.size()){

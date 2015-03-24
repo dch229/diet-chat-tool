@@ -9,6 +9,7 @@ import javax.swing.JOptionPane;
 
 import client.ClientMazeGameComms;
 import cornell.mchci.MessageDisplaySurvey;
+import cornell.mchci.MessageEnableChatWindow;
 import cornell.mchci.MessageSurveySubmitted;
 import diet.debug.Debug;
 import diet.message.*;
@@ -558,6 +559,9 @@ public class ConnectionToServer extends Thread {
                   e.printStackTrace();
                   this.sendErrorMessage("ERRORDISPLAYINGNEWWEBPAGE");  
               }
+          }
+          else if(m instanceof MessageEnableChatWindow){
+              jcfsw.setTextFieldVisible(true);
           }
           
           

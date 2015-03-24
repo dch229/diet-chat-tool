@@ -251,12 +251,13 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         results += "}";
         if(cts != null){
             cts.sendSurveySubmitted(results);
+            //cts.sendMessage(new MessageReadyForTimer("", ""));
         } else{
             System.out.println("No cts: " + results);
         }
         
         setInstructionContent();
-        cts.getChatFrame().setTextFieldVisible(true);
+        //cts.getChatFrame().setTextFieldVisible(true);
     }
     
     void englishButtonActionPerformed(java.awt.event.ActionEvent evt) {  
