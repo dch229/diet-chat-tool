@@ -27,7 +27,7 @@ import javax.swing.plaf.FontUIResource;
  * @author Gabriel
  */
 public class SurveyBoxJFrame extends javax.swing.JFrame {
-
+    String spaceString = "                    ";
     ButtonGroup[] surveyButtonGroups;
     JRadioButton[] surveyButtons;
     String[] englishQuestions = new String[]{ "<html>In the preceding 5 minutes of discussion, <b>I</b> was...</html>",
@@ -41,7 +41,7 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
     String[] chineseQuestions = new String[]{ "<html>在此前5分钟的对话中, 我感到<b>我自己</b>是...</html>",
         "<html>在此前5分钟的对话中, 我认为<b>我的同伴</b>是...</html>",
         "毫不",
-        "非常"
+        "非常"+spaceString
     };
     String[] chineseWords = new String[]{  "投入的", "紧张的", "友好的", "健谈的", "受挫的", "被冒犯的",
         "投入的", "紧张的", "友好的", "健谈的", "受挫的", "被冒犯的"};
