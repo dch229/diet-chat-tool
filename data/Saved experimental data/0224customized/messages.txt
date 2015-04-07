@@ -1,0 +1,3 @@
+dfadgda|gadgag|ChatTextFromClient|STue Apr 07 18:29:01 EDT 2015T|1428445741373|3|1428445741373||
+dfadgda|gadgag|ChatTextToClient|STue Apr 07 18:29:01 EDT 2015T|1428445741375|| |
+server|gadgag|ChatTextToClient|STue Apr 07 18:29:01 EDT 2015T|1428445741383|| |

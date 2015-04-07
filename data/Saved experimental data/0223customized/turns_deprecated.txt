@@ -1,0 +1,5 @@
+ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
+gjadgkj|18:27:36|0|gjadgkj||OK
+gjadgkj|18:27:36|0|gjadgkj||OK
+server|18:27:36|0|gjadgkj||OK
+server|18:27:36|0|gjadgkj||OK
