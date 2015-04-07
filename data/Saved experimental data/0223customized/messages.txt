@@ -1,3 +1,0 @@
-ldakgjlgf|gjadgkj|ChatTextFromClient|STue Apr 07 18:27:36 EDT 2015T|1428445656052|23|1428445656052||
-ldakgjlgf|gjadgkj|ChatTextToClient|STue Apr 07 18:27:36 EDT 2015T|1428445656130|| |
-server|gjadgkj|ChatTextToClient|STue Apr 07 18:27:36 EDT 2015T|1428445656302|| |

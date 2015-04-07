@@ -14,11 +14,9 @@ import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
-import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
-import javax.swing.JToggleButton;
 import javax.swing.UIManager;
 import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
@@ -50,8 +48,6 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
     
     String[] questions;
     String[] words;
-    
-    JCheckBox reconnectingToggle;
     
     Dimension size;
     // TODO: find a better way to do this
@@ -85,8 +81,6 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         contentPanel.setLayout(new BoxLayout(contentPanel, BoxLayout.Y_AXIS));
         contentPanel.setBorder(new EmptyBorder(32, 32, 32, 32));
         
-        reconnectingToggle = new JCheckBox("Is reconnecting");
-        
         JButton b1 = new JButton("English");
         b1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -100,7 +94,6 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
             }
         });
         
-         contentPanel.add(reconnectingToggle);
         contentPanel.add(b1);
         contentPanel.add(b2);
          getContentPane().add(contentPanel);
@@ -272,10 +265,8 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         words = englishWords;
         setInstructionContent();
         
-        if(reconnectingToggle.isSelected()){
-            if(cts != null){
-                cts.sendMessage(new MessageReadyForTimer("", ""));
-            }
+        if(cts != null){
+            cts.sendMessage(new MessageReadyForTimer("", ""));
         }
     }
     
@@ -284,10 +275,8 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         words = chineseWords;
         setInstructionContent();
         
-        if(reconnectingToggle.isSelected()){
-            if(cts != null){
-                cts.sendMessage(new MessageReadyForTimer("", ""));
-            }
+        if(cts != null){
+            cts.sendMessage(new MessageReadyForTimer("", ""));
         }
     }
     

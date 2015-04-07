@@ -1,7 +1,0 @@
-ParticipantID|Sender|Type|ClientTime|Onset|Enter|Typingti|Speed|AppOrig.|Text|Recipients|Blocked|KDels|DDels|DIns|DDels*N|DIns*N|TaggedText|PriorTurnByOther_TimestampOnClientOfReceipt|PriorTurnByOther_ApparentUsername|PriorTurnByOther_Text
-fkajdflasf|13:55:38|0|fkajdflasf||OK
-fkajdflasf|13:55:38|0|fkajdflasf||OK
-server|13:55:38|0|fkajdflasf||OK
-server|13:55:38|0|fkajdflasf||OK
-server|13:55:51|0|server|[SURVEYRESULT:kjfladfjda]{4,4,4,4,4,4,4,4,4,4}|OK
-server|13:55:54|0|server|[SURVEYRESULT:fkajdflasf]{4,4,4,4,4,4,4,4,4,4}|OK
