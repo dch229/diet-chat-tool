@@ -14,6 +14,7 @@ import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
@@ -49,6 +50,8 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
     String[] questions;
     String[] words;
     
+    JCheckBox reconnectingBox;
+    
     Dimension size;
     // TODO: find a better way to do this
     ConnectionToServer cts;
@@ -81,6 +84,8 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         contentPanel.setLayout(new BoxLayout(contentPanel, BoxLayout.Y_AXIS));
         contentPanel.setBorder(new EmptyBorder(32, 32, 32, 32));
         
+        reconnectingBox = new JCheckBox("Reconnecting?");
+        
         JButton b1 = new JButton("English");
         b1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -94,6 +99,7 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
             }
         });
         
+         contentPanel.add(reconnectingBox);
         contentPanel.add(b1);
         contentPanel.add(b2);
          getContentPane().add(contentPanel);
@@ -265,8 +271,10 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         words = englishWords;
         setInstructionContent();
         
-        if(cts != null){
-            cts.sendMessage(new MessageReadyForTimer("", ""));
+        if(!reconnectingBox.isSelected()){
+            if(cts != null){
+                cts.sendMessage(new MessageReadyForTimer("", ""));
+            }
         }
     }
     
@@ -275,8 +283,10 @@ public class SurveyBoxJFrame extends javax.swing.JFrame {
         words = chineseWords;
         setInstructionContent();
         
-        if(cts != null){
-            cts.sendMessage(new MessageReadyForTimer("", ""));
+        if(!reconnectingBox.isSelected()){
+            if(cts != null){
+                cts.sendMessage(new MessageReadyForTimer("", ""));
+            }
         }
     }
     
